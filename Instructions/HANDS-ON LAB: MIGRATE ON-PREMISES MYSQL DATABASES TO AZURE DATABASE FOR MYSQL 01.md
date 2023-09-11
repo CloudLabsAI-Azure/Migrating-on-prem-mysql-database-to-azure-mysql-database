@@ -22,7 +22,9 @@
 
 1. For resource type search for **Microsoft.DBforMySQL/flexibleservers** and click on it.
 
-1. Select the Database in the resource group created prior
+1. Select the Database in the resource group created prior.
+
+   ![](Media/pe.png)
 
 1. Click on **Next:virtualnetwork**
 
@@ -58,6 +60,8 @@
 1. For password type **Password.1!!**. click enter
 
 1. You can see the mysql prompt.
+
+     ![](Media/mysql.png)
 
 ## Proceed to next exercise
 
