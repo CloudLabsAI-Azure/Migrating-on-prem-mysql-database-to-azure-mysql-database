@@ -51,5 +51,15 @@ In this lab, you'll create a database using MySQL Workbench. Simply launch MySQL
    
   >**Note:** Don't close the page as the steps are continued in the next exercise.
 
+## Review
+
+1. You launched MySQL Workbench and opened the default instance.
+
+1. You executed a provided query to create a database named "quickstartdb" and a table called "inventory" with sample data.
+
+1. The query was executed successfully, and you verified the creation in the left panel's schema view.
+
+1. You kept this page open for future exercises.
+
 ## Proceed to next exercise.
 
