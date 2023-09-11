@@ -1,3 +1,7 @@
+# Exercise 03: Migrating a Database to Azure MySQL
+
+In this lab, you'll migrate a database from MySQL Workbench to Azure MySQL. Using the Migration Wizard in MySQL Workbench, you'll configure source and target settings, test the connection, and complete the migration. Afterward, in the Azure portal, you'll verify the successful migration of the database within the specified resource group. This exercise demonstrates the efficient transfer of a database to Azure's cloud environment.
+
 ## Task 01: Migrate the created database to azure MySQL database
 
 1. In MYSQL workbench On Tool bar select **Database**
@@ -35,5 +39,13 @@
 1. On the left menu search for databases and select it.
 
 1. You can see the Database has been successfully migrated.
+
+## Review
+
+1. You initiated the database migration from MySQL Workbench to Azure MySQL, configuring source and target settings.
+
+1. You successfully completed the migration process.
+
+1. In the Azure portal, you verified the migrated database's status within the specified resource group.
 
 ## Proceed to next exerise   
