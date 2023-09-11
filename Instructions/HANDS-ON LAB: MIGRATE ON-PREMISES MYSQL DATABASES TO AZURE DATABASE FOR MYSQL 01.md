@@ -10,9 +10,9 @@ In this lab, you'll create a private endpoint in Azure to securely connect to a 
 
 1. leave the subscription as default
 
-1. For the resource group, select **jumpvm[DID]**
+1. For the resource group, select **jumpvm-<inject key="DeploymentID" />**
 
-1. For the name type **endpoint[did]**
+1. For the name type **endpoint-<inject key="DeploymentID" />**
 
 1. Leave the default value for nic card name. and select a region.
 
@@ -42,9 +42,9 @@ In this lab, you'll create a private endpoint in Azure to securely connect to a 
 
 ## Task 2: Connect to azure database.
 
-1. In the Azure Portal, navigate to resource group and select Jumpvm-[did]
+1. In the Azure Portal, navigate to resource group and select Jumpvm-<inject key="DeploymentID" />
 
-1. Select the created Azure database **server[did]**
+1. Select the created Azure database **server<inject key="DeploymentID" />**
 
 1. On the left menu, click on connect. and scroll down to **Connect from browser or locally**
 
