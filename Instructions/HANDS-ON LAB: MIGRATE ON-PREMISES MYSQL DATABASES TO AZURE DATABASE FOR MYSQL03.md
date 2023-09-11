@@ -48,4 +48,4 @@ In this lab, you'll migrate a database from MySQL Workbench to Azure MySQL. Usin
 
 1. In the Azure portal, you verified the migrated database's status within the specified resource group.
 
-## Proceed to next exerise   
+## Proceed to next exercise   
