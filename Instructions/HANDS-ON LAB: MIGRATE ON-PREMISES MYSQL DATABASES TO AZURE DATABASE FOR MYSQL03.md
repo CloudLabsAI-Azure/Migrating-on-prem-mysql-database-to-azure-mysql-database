@@ -30,7 +30,7 @@
 
 1. Go t azure portal and select the existing resource group
 
-1. Navigate to the azure database **Server[did]**
+1. Navigate to the azure database **Server-<inject key="DeploymentID" />**
 
 1. On the left menu search for databases and select it.
 
