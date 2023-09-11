@@ -2,13 +2,13 @@
 
 ## Task 1: Create a private Endpoint.
 
-1. On the search bar search for **private endpoints** and click on it
+1. On the search bar, search for **private endpoints** and click on it
 
 1. Click on **+Create**
 
 1. leave the subscription as default
 
-1. For the resource group select **jumpvm[DID]**
+1. For the resource group, select **jumpvm[DID]**
 
 1. For the name type **endpoint[did]**
 
@@ -40,11 +40,11 @@
 
 ## Task 2: Connect to azure database.
 
-1. In the Azure Portal navigate to resource group and select Jumpvm-[did]
+1. In the Azure Portal, navigate to resource group and select Jumpvm-[did]
 
 1. Select the created Azure database **server[did]**
 
-1. On the left menu click on connect. and scroll down to **Connect from browser or locally**
+1. On the left menu, click on connect. and scroll down to **Connect from browser or locally**
 
 1. Copy the command given.
 
@@ -53,11 +53,11 @@
 
    ```
 
-1. In the system navigate to start and search for command prompt by typing **cmd** and select.
+1. In the system, navigate to start and search for command prompt by typing **cmd** and select.
 
 1. Paste the command you copied earlier. and press enter
 
-1. For password type **Password.1!!**. click enter
+1. For password, type **Password.1!!**. click enter
 
 1. You can see the mysql prompt.
 
