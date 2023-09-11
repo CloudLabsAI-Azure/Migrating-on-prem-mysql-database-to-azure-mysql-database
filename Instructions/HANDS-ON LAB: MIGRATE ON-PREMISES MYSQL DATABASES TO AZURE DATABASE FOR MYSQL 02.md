@@ -6,6 +6,8 @@
 
 1.  Click on the Default instance created.
 
+   ![Workbench](./media/workbench.png)
+
 1. Once the editor opens up copy paste the below query to create a database and a table  
 
   ```
