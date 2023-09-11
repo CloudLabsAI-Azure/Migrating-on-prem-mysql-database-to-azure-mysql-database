@@ -37,6 +37,8 @@
   ```
 1. Click on the execute button.
 
+   ![](Media/database.png)
+
 1. verify whether the database is created by clicking on schema on the left.(refresh it)
 
   >**Note:** Don't close the page as the steps are continued in the next exercise.
