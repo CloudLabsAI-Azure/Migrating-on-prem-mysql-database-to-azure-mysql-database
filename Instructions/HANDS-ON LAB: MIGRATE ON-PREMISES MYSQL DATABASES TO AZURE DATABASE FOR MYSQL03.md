@@ -24,4 +24,16 @@
 
 1. Click on next Until Migration report (wait for few seconds each time you click next)
 
-1. In the migration report review the settings and click on finish.  
+1. In the migration report review the settings and click on finish.
+
+## Task 2: Review the migrated database
+
+1. Go t azure portal and select the existing resource group
+
+1. Navigate to the azure database **Server[did]**
+
+1. On the left menu search for databases and select it.
+
+1. You can see the Database has been successfully migrated.
+
+## Proceed to next exerise   
