@@ -8,6 +8,7 @@
 
    ```
    create user 'sqluser'@'%' identified by 'Password.1!!';
+
    GRANT ALL PRIVILEGES ON * . * TO sqluser@'%';
 
    ```
