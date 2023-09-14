@@ -10,7 +10,7 @@ In this lab, you'll create a private endpoint in Azure to securely connect to a 
 
 1. leave the subscription as default
 
-1. For the resource group, select **jumpvm-<inject key="DeploymentID" />**
+1. For the resource group, select **jumpvm-RG-<inject key="DeploymentID" />**
 
 1. For the name type **endpoint-<inject key="DeploymentID" />**
 
@@ -46,7 +46,11 @@ In this lab, you'll create a private endpoint in Azure to securely connect to a 
 
 1. Select the created Azure database **server<inject key="DeploymentID" />**
 
-1. On the left menu, click on connect. and scroll down to **Connect from browser or locally**
+1. On the left menu, click on connect.
+
+1. Check the prerequisites and click on **Add Client IP ( xxxx )**. Wait until it gets updated.
+
+1. After the configuration, Scroll down to **Connect from browser or locally**
 
 1. Copy the command given.
 
