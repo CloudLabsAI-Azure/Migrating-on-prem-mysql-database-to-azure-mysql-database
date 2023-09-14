@@ -50,7 +50,15 @@
     | **Username**                      | azuresqluser                    |
     | **Password**                      | Password.1!!                    |
 
-1. 
+1. In the database tab select **migrate entire servers**
+
+1. Click on **Review and start migration**
+
+1. In the Review page give a name for the activity in this case name it **migrate** and click on **Start migration**
+
+1. You can see the migration process gets started and in the initial load you can see the created database has been migrated.
+
+1. To Review you can go back to server and check the database present there 
 
 
   
