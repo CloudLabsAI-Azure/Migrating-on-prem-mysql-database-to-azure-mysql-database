@@ -2,7 +2,7 @@
 
 In this lab, you'll create a private endpoint in Azure to securely connect to a MySQL database. This involves configuring the endpoint and connecting it to your database. You'll then use a command prompt to establish a secure connection to the Azure MySQL database. 
 
-### Task 1: Open the Azure portal
+## Task 1: Open the Azure portal
 
 1. Search for Microsoft edge in windows start and click on it.
 
