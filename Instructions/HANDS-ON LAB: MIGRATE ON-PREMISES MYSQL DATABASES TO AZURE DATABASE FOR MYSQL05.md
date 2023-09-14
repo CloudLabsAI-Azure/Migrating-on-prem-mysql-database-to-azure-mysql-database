@@ -14,7 +14,7 @@
 
 1. In the overview click on **+New Migration project**
 
-   ![](Media/047.png)
+   ![](Media/0047.png)
 
 1. In the **New Migration project window** Enter the details
 
@@ -68,7 +68,7 @@
 
 1. Click on **Review and start migration**
 
-   ![](Media/052.png)
+   ![](Media/0052.png)
 
 1. In the Review page give a name for the activity in this case name it **migrate** and click on **Start migration**
 
@@ -78,13 +78,13 @@
 
 1. In the initial load you can see the created database has been migrated.
 
-   ![](Media/054.png)
+   ![](Media/0054.png)
 
 1. Wait until the status says completed.
 
 1. Once the status shows completed To Review you can go back to server and check the newly migrated database.
 
-   ![](Media/055.png)
+   ![](Media/0055.png)
 
 
 
