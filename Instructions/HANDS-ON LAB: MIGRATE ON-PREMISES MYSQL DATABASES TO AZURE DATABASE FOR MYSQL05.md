@@ -2,7 +2,31 @@
 
 In this lab, you'll use the Azure portal to migrate data from a MySQL source server to an Azure Database for MySQL. The steps involve setting up a migration project, configuring source and target servers, starting the migration, and verifying its completion.
 
-## Task 01: Set-up a new migration project
+## Task 01: Open the Azure portal
+
+1. Search for Microsoft edge in windows start and click on it.
+
+   ![](Media/01.png)
+
+1. Click on continue without using data and continue browsing
+
+1. Search for portal.azure.com  
+
+1. If not Sign-in, then on the **Sign into Microsoft Azure** tab you will see the login screen, in that enter following **Email/Username** and then click on **Next**. 
+   * Email/Username: <inject key="AzureUserName"></inject>
+
+   ![](Media/02.png)
+   
+1. Now enter the following **Password** and click on **Sign in**.
+   * Password: <inject key="AzurePassword"></inject>
+
+   ![](Media/03.png)
+    
+1. If you see the pop-up **Stay Signed in?**, click No.
+
+   ![](Media/04.png)
+
+## Task 02: Set-up a new migration project
 
 1. In the browser search for **portal.azure.com**
 
