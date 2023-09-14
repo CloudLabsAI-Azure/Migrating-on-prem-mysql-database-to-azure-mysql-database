@@ -6,6 +6,8 @@ In this lab, you'll create a private endpoint in Azure to securely connect to a 
 
 1. On the search bar, search for **private endpoints** and click on it
 
+   ![](Media/001.png)
+
 1. Click on **+Create**
 
 1. leave the subscription as default
