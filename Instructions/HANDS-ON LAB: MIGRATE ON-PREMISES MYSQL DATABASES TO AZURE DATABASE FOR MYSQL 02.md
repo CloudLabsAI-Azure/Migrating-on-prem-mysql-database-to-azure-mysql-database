@@ -53,9 +53,9 @@ In this lab, you'll create a database using MySQL Workbench. Simply launch MySQL
 
 1. Verify the created database by viewing schema on the left (refresh it)
 
-   ![](Media/021.png)
+   ![](Media/0021.png)
 
-   ![](Media/022.png)
+   ![](Media/0022.png)
    
   >**Note:** Don't close the page as the steps are continued in the next exercise.
 
