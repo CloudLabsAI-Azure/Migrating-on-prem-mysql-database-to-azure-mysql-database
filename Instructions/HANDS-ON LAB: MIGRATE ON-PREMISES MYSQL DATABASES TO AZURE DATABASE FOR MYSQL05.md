@@ -1,3 +1,7 @@
+# Exercise 05:
+
+In this lab, you'll use the Azure portal to migrate data from a MySQL source server to an Azure Database for MySQL. The steps involve setting up a migration project, configuring source and target servers, starting the migration, and verifying its completion.
+
 ## Task 01: Set-up a new migration project
 
 1. In the browser search for **portal.azure.com**
@@ -85,6 +89,14 @@
 1. Once the status shows completed To Review you can go back to server and check the newly migrated database.
 
    ![](Media/0055.png)
+
+## Review
+
+1. In this lab, you performed a data migration from MySQL to Azure Database for MySQL using the Azure portal.
+
+1. The process involved setting up the migration project, configuring source and target servers, and verifying the successful migration.
+
+You have successfully completed the lab
 
 
 
