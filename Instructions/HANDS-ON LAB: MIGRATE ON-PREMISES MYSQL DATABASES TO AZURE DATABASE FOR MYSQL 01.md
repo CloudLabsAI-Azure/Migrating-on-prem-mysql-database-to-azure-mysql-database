@@ -121,6 +121,14 @@ In this lab, you'll create a private endpoint in Azure to securely connect to a 
 
      ![](Media/016.png)
 
+## Review
+
+1. In this lab you have Created an Azure Private Endpoint for secure MySQL database access.
+
+1. Configured and connected the endpoint through the Azure Portal.
+
+1. Established a secure connection using a command prompt, enhancing data security and control.
+
 ## Proceed to next exercise
 
   
