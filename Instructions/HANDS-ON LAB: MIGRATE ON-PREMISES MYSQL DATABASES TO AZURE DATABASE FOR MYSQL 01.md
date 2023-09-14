@@ -6,7 +6,7 @@ In this lab, you'll create a private endpoint in Azure to securely connect to a 
 
 1. Search for Microsoft edge in windows start and click on it.
 
-   ![](Media/003.png)
+   ![](Media/01.png)
 
 1. Click on continue without using data and continue browsing
 
@@ -14,13 +14,19 @@ In this lab, you'll create a private endpoint in Azure to securely connect to a 
 
 1. If not Sign-in, then on the **Sign into Microsoft Azure** tab you will see the login screen, in that enter following **Email/Username** and then click on **Next**. 
    * Email/Username: <inject key="AzureUserName"></inject>
+
+   ![](Media/01.png)
    
 1. Now enter the following **Password** and click on **Sign in**.
    * Password: <inject key="AzurePassword"></inject>
+
+   ![](Media/01.png)
     
 1. If you see the pop-up **Stay Signed in?**, click No.
 
-## Task 1: Create a private Endpoint.
+   ![](Media/01.png)
+
+## Task 2: Create a private Endpoint.
 
 1. On the search bar, search for **private endpoints** and click on it
 
@@ -70,7 +76,7 @@ In this lab, you'll create a private endpoint in Azure to securely connect to a 
 
   >**Note**: It might take few minutes for the deployment to complete meanwhile observe the resources which are created with the endpoint.
 
-## Task 2: Connect to azure database.
+## Task 3: Connect to azure database.
 
 1. In the Azure Portal, navigate to resource group and select Jumpvm-<inject key="DeploymentID" />
 
