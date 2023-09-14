@@ -85,3 +85,13 @@ In this lab, you'll create a database using MySQL Workbench. Simply launch MySQL
 1. Click on the thunder sign to execute the query and you can see the database with a table has been created.(refresh schema to see the new database)
 
    ![](Media/044.png)
+
+## Review
+
+1. You launched MySQL Workbench and opened the default instance.
+
+1. You executed a provided query to create a database named "onlinedb" and a table called "fruits" with sample data.
+
+1. The query was executed successfully, and you verified the creation in the left panel's schema view.
+
+## Proceed to next exercise.
