@@ -4,27 +4,27 @@
     "Language": "English",
     "Files": [
       {
-        "RawFilePath": "https://raw.githubusercontent.com/Shakthivelms8/Migrating-on-prem-mysql-database-to-azure-mysql-database/Stage/Instructions/labintro.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Migrating-on-prem-mysql-database-to-azure-mysql-database/main/Instructions/labintro.md",
         "Order": 1
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/Shakthivelms8/Migrating-on-prem-mysql-database-to-azure-mysql-database/Stage/Instructions/HANDS-ON%20LAB%3A%20MIGRATE%20ON-PREMISES%20MYSQL%20DATABASES%20TO%20AZURE%20DATABASE%20FOR%20MYSQL%2001.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Migrating-on-prem-mysql-database-to-azure-mysql-database/main/Instructions/HANDS-ON%20LAB%3A%20MIGRATE%20ON-PREMISES%20MYSQL%20DATABASES%20TO%20AZURE%20DATABASE%20FOR%20MYSQL%2001.md",
         "Order": 2
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/Shakthivelms8/Migrating-on-prem-mysql-database-to-azure-mysql-database/Stage/Instructions/HANDS-ON%20LAB%3A%20MIGRATE%20ON-PREMISES%20MYSQL%20DATABASES%20TO%20AZURE%20DATABASE%20FOR%20MYSQL%2002.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Migrating-on-prem-mysql-database-to-azure-mysql-database/main/Instructions/HANDS-ON%20LAB%3A%20MIGRATE%20ON-PREMISES%20MYSQL%20DATABASES%20TO%20AZURE%20DATABASE%20FOR%20MYSQL%2002.md",
         "Order": 3
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/Shakthivelms8/Migrating-on-prem-mysql-database-to-azure-mysql-database/Stage/Instructions/HANDS-ON%20LAB%3A%20MIGRATE%20ON-PREMISES%20MYSQL%20DATABASES%20TO%20AZURE%20DATABASE%20FOR%20MYSQL03.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Migrating-on-prem-mysql-database-to-azure-mysql-database/main/Instructions/HANDS-ON%20LAB%3A%20MIGRATE%20ON-PREMISES%20MYSQL%20DATABASES%20TO%20AZURE%20DATABASE%20FOR%20MYSQL03.md",
         "Order": 4
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/Shakthivelms8/Migrating-on-prem-mysql-database-to-azure-mysql-database/Stage/Instructions/HANDS-ON%20LAB%3A%20MIGRATE%20ON-PREMISES%20MYSQL%20DATABASES%20TO%20AZURE%20DATABASE%20FOR%20MYSQL%2004.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Migrating-on-prem-mysql-database-to-azure-mysql-database/main/Instructions/HANDS-ON%20LAB%3A%20MIGRATE%20ON-PREMISES%20MYSQL%20DATABASES%20TO%20AZURE%20DATABASE%20FOR%20MYSQL%2004.md",
         "Order": 5
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/Shakthivelms8/Migrating-on-prem-mysql-database-to-azure-mysql-database/Stage/Instructions/HANDS-ON%20LAB%3A%20MIGRATE%20ON-PREMISES%20MYSQL%20DATABASES%20TO%20AZURE%20DATABASE%20FOR%20MYSQL05.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Migrating-on-prem-mysql-database-to-azure-mysql-database/main/Instructions/HANDS-ON%20LAB%3A%20MIGRATE%20ON-PREMISES%20MYSQL%20DATABASES%20TO%20AZURE%20DATABASE%20FOR%20MYSQL05.md",
         "Order": 6
       },
       {
