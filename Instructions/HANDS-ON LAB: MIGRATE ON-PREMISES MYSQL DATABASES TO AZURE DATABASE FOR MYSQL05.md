@@ -1,4 +1,4 @@
-# Exercise 05:
+# Exercise 05: Online Data Migration with Azure DMS: MySQL to Azure Database for MySQL via Azure Portal
 
 In this lab, you'll use the Azure portal to migrate data from a MySQL source server to an Azure Database for MySQL. The steps involve setting up a migration project, configuring source and target servers, starting the migration, and verifying its completion.
 
