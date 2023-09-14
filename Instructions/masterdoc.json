@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "Migrating-on-prem-mysql-database-to-azure-mysql-database",
+    "Language": "English",
+    "Files": [
+      {
+        "RawFilePath": "",
+        "Order": 1
+      },
+      {
+        "RawFilePath": "",
+        "Order": 2
+      },
+      {
+        "RawFilePath": "",
+        "Order": 3
+      },
+      {
+        "RawFilePath": "",
+        "Order": 4
+      },
+      {
+        "RawFilePath": "",
+        "Order": 5
+      },
+      {
+        "RawFilePath": "",
+        "Order": 6
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/self-paced/Instructions/Labs/LAB_05_explore_nsg.md",
+        "Order": 7
+      }
+    ]
+  }
+]
