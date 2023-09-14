@@ -120,7 +120,7 @@ In this lab, you'll use the Azure portal to migrate data from a MySQL source ser
 
 1. The process involved setting up the migration project, configuring source and target servers, and verifying the successful migration.
 
-You have successfully completed the lab
+# You have successfully completed the lab
 
 
 
