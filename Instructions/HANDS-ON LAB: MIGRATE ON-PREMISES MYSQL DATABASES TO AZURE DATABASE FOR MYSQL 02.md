@@ -12,7 +12,9 @@ In this lab, you'll create a database using MySQL Workbench. Simply launch MySQL
 
       ![](Media/workbench.png)
 
-1. Once the editor opens up copy paste the below query to create a database and a table  
+1. Once the editor opens up copy paste the below query to create a database and a table
+
+   >**Note**: Please copy-paste the commands in the notepad before pasting it inside the editor to avoid mistakes.  
 
      ```
      -- Create a database
