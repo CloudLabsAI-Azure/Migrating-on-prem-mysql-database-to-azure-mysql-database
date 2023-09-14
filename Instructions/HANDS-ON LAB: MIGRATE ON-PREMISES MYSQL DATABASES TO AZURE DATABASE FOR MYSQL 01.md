@@ -15,16 +15,16 @@ In this lab, you'll create a private endpoint in Azure to securely connect to a 
 1. If not Sign-in, then on the **Sign into Microsoft Azure** tab you will see the login screen, in that enter following **Email/Username** and then click on **Next**. 
    * Email/Username: <inject key="AzureUserName"></inject>
 
-   ![](Media/01.png)
+   ![](Media/02.png)
    
 1. Now enter the following **Password** and click on **Sign in**.
    * Password: <inject key="AzurePassword"></inject>
 
-   ![](Media/01.png)
+   ![](Media/03.png)
     
 1. If you see the pop-up **Stay Signed in?**, click No.
 
-   ![](Media/01.png)
+   ![](Media/04.png)
 
 ## Task 2: Create a private Endpoint.
 
