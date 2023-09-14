@@ -15,3 +15,5 @@ In this lab module, you will delve into the world of MySQL database migration to
 1. Understanding Azure Database for MySQL: The lab begins by introducing you to Azure Database for MySQL, shedding light on its features and constraints. This foundational knowledge is essential for making informed decisions regarding database deployments in the Azure ecosystem.
 
 2. Migration Mastery: A significant focus of this lab is guiding you through the process of migrating on-premises MySQL databases to Azure Database for MySQL. You will gain hands-on experience with migration tools and techniques, ensuring a seamless transition of data and applications to Azure.
+
+## Proceed to Exercises
