@@ -1,8 +1,8 @@
 ## Task 01: Set-up a new migration project
 
-1. In the browser searc for **portal.azure.com**
+1. In the browser search for **portal.azure.com**
 
-1. Enter credentials
+1. Enter the credentials and sign up
 
 1. In the azure portal go to resource group.
 
