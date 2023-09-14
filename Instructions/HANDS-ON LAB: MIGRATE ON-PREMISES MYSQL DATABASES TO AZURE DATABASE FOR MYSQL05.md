@@ -6,13 +6,13 @@
 
 1. In the azure portal go to resource group.
 
-1. Select the data migration service **service[DID].
+1. Select the data migration service **service[DID]**.
 
 1. In the overview click on **+New Migration project**
 
 1. In the **New Migration project window** Enter the details
 
-1. For name Type **Migration-[DID]
+1. For name Type **Migration-[DID]**
 
 1. For source server type choose MySQL from the drop down
 
@@ -28,7 +28,7 @@
 
 1. In select source tab For server name mention the ip address of the lab vm running in azure.
 
-  >**Note**: Duplicate the current tab and go-to home page. From there go to resource group and navigate to Labvm-[DID].
+  >**Note**: Duplicate the current tab and go-to home page. From there go to resource group and navigate to **Labvm-[DID]**.
   >   There you can find the Labvm IP address.
 
 1. For port leave the default **3306**
