@@ -8,9 +8,11 @@ In this lab, you'll create a database using MySQL Workbench. Simply launch MySQL
 
 1. Search for MySQL workbench.
 
+   ![](Media/017.png)
+
 1.  Click on the Default instance created.
 
-      ![](Media/workbench.png)
+   ![](Media/018.png)
 
 1. Once the editor opens up copy paste the below query to create a database and a table
 
@@ -43,13 +45,17 @@ In this lab, you'll create a database using MySQL Workbench. Simply launch MySQL
      ```
 1. Click on the execute button.
 
-   ![](Media/database.png)
+   ![](Media/019.png)
 
 1. verify the created table.
 
-   ![](Media/table.png)
+   ![](Media/020.png)
 
 1. Verify the created database by viewing schema on the left (refresh it)
+
+   ![](Media/021.png)
+
+   ![](Media/022.png)
    
   >**Note:** Don't close the page as the steps are continued in the next exercise.
 
