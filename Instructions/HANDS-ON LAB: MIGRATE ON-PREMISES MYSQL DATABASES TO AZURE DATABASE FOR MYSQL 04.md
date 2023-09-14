@@ -4,7 +4,7 @@
 
 1. In the home page of workbench click on the created instance.
 
-1. Delete if there is any content And copy paste the below command.
+1. Delete if there is any content And copy paste the below command. and Run it.
 
    ```
    create user 'sqluser'@'%' identified by 'Password.1!!';
@@ -12,6 +12,9 @@
    GRANT ALL PRIVILEGES ON * . * TO sqluser@'%';
 
    ```
+
+   >**Note**:Copy-paste the commands in Notepad before pasting it into the editor to avoid mistakes
+
 1. Close the instance,
 
 1. Click on the add button "+" to set-up new connection.
@@ -34,27 +37,27 @@
 
    ```
      -- Create a database
-     -- DROP DATABASE IF EXISTS quickstartdb;
-     CREATE DATABASE quickstartdb;
-     USE quickstartdb;
+     -- DROP DATABASE IF EXISTS onlinedb;
+     CREATE DATABASE onlinedb;
+     USE onlinedb;
      
      -- Create a table and insert rows
-     DROP TABLE IF EXISTS inventory;
-     CREATE TABLE inventory (id serial PRIMARY KEY, name VARCHAR(50), quantity INTEGER);
-     INSERT INTO inventory (name, quantity) VALUES ('banana', 150);
-     INSERT INTO inventory (name, quantity) VALUES ('orange', 154);
-     INSERT INTO inventory (name, quantity) VALUES ('apple', 100);
+     DROP TABLE IF EXISTS Fruits;
+     CREATE TABLE Fruits (id serial PRIMARY KEY, name VARCHAR(50), quantity INTEGER);
+     INSERT INTO Fruits (name, quantity) VALUES ('banana', 150);
+     INSERT INTO Fruits (name, quantity) VALUES ('orange', 154);
+     INSERT INTO Fruits (name, quantity) VALUES ('apple', 100);
      
      -- Read
-     SELECT * FROM inventory;
+     SELECT * FROM Fruits;
      
      -- Update
-     UPDATE inventory SET quantity = 200 WHERE id = 1;
-     SELECT * FROM inventory;
+     UPDATE Fruits SET quantity = 200 WHERE id = 1;
+     SELECT * FROM Fruits;
      
      -- Delete
-     DELETE FROM inventory WHERE id = 2;
-     SELECT * FROM inventory;
+     DELETE FROM Fruits WHERE id = 2;
+     SELECT * FROM Fruits;
      
      ```
     
