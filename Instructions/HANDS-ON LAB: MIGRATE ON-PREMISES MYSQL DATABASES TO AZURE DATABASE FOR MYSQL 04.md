@@ -2,7 +2,11 @@
 
 1. On start menu search for MySQLworkbench and click on the result.
 
+   ![](Media/036.png)
+
 1. In the home page of workbench click on the created instance.
+
+   ![](Media/037.png)
 
 1. Delete if there is any content And copy paste the below command. and Run it.
 
@@ -13,11 +17,17 @@
 
    ```
 
+   ![](Media/038.png)
+
    >**Note**:Copy-paste the commands in Notepad before pasting it into the editor to avoid mistakes
 
 1. Close the instance,
 
+   ![](Media/039.png)
+
 1. Click on the add button "+" to set-up new connection.
+
+   ![](Media/040.png)
 
 1. When the new connection screen pops up name the connection as **local database**.
 
@@ -28,6 +38,12 @@
 1. It asks for password type **Password.1!!**.
 
 1. Once you get the success message click on **ok**.
+
+   ![](Media/041.png)
+
+   ![](Media/042.png)
+
+   ![](Media/043.png)
 
 ## Task 02: Create a new Database
 
@@ -63,3 +79,5 @@
     
 
 1. Click on the thunder sign to execute the query and you can see the database with a table has been created.(refresh schema to see the new database)
+
+   ![](Media/044.png)
