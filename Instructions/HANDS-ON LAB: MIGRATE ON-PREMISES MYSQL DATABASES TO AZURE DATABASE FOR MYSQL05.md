@@ -6,9 +6,15 @@
 
 1. In the azure portal go to resource group.
 
+   ![](Media/045.png)
+
 1. Select the data migration service **service[DID]**.
 
+   ![](Media/046.png)
+
 1. In the overview click on **+New Migration project**
+
+   ![](Media/047.png)
 
 1. In the **New Migration project window** Enter the details
 
@@ -22,15 +28,19 @@
 
 1. Click on **Create Run Activity**
 
+   ![](Media/048.png)
+
 1. You can see it creates an activity and redirects you to **MySQL to Azure Database for MySQL Online Migration Wizard**.
 
 1. In **MySQL to Azure Database for MySQL Online Migration Wizard** fill out the information as mentioned below
 
 1. In select source tab For server name mention the ip address of the lab vm running in azure.
 
-  >**Note**: Duplicate the current tab and go-to home page. From there go to resource group and navigate to **Labvm-[DID]**.
-  >   There you can find the Labvm IP address.
+   >**Note**: Duplicate the current tab and go-to home page. From there go to resource group and navigate to **Labvm-[DID]**.
+   >   There you can find the Labvm IP address.
 
+     ![](Media/049.png)
+     
 1. For port leave the default **3306**
 
 1. For username type **sqluser** and for password type **Password.1!!**
@@ -38,6 +48,8 @@
 1. Uncheck the **encrypt connection**
 
 1. Click on **Next Select Target**. It might take a moment to load.
+
+   ![](Media/050.png)
 
 1. On the Target tab fill the below details and Click on Next **select Database** 
 
@@ -50,15 +62,31 @@
     | **Username**                      | azuresqluser                    |
     | **Password**                      | Password.1!!                    |
 
+   ![](Media/051.png)
+
 1. In the database tab select **migrate entire servers**
 
 1. Click on **Review and start migration**
 
+   ![](Media/052.png)
+
 1. In the Review page give a name for the activity in this case name it **migrate** and click on **Start migration**
 
-1. You can see the migration process gets started and in the initial load you can see the created database has been migrated.
+   ![](Media/053.png)
 
-1. To Review you can go back to server and check the database present there 
+1. You can see the migration process gets started
+
+1. In the initial load you can see the created database has been migrated.
+
+   ![](Media/054.png)
+
+1. Wait until the status says completed.
+
+1. Once the status shows completed To Review you can go back to server and check the newly migrated database.
+
+   ![](Media/055.png)
+
+
 
 
   
