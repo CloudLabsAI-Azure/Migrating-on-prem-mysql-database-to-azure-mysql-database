@@ -114,6 +114,21 @@ In this lab, you'll use the Azure portal to migrate data from a MySQL source ser
 
    ![](Media/0055.png)
 
+1. To check Whether everything gets updated as changes are made in the local server go back to workbench and create a new database.
+
+   ```
+    CREATE DATABASE onlinedbtwo;
+
+   ```
+1. Execute the command and verify the creation in schemas tab.
+
+   ![](Media/056.png)
+
+1. Once created come back to azure database and refresh the database. you can see the creation of new database has been reflected.
+
+   ![](Media/057.png)
+
+
 ## Review
 
 1. In this lab, you performed a data migration from MySQL to Azure Database for MySQL using the Azure portal.

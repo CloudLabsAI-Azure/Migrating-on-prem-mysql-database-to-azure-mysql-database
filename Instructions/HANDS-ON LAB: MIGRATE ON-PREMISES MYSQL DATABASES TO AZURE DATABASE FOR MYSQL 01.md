@@ -68,7 +68,7 @@ In this lab, you'll create a private endpoint in Azure to securely connect to a 
 
 1. Select yes and select subscription and resource group and click on next tags and again click next.
 
-   ![](Media/006.png)
+   ![](Media/0006.png)
 
 1. Click on create.
 
