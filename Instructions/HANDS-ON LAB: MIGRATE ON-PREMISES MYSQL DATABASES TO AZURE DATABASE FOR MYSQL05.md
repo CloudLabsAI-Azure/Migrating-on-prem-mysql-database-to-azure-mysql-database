@@ -36,7 +36,7 @@ In this lab, you'll use the Azure portal to migrate data from a MySQL source ser
 
    ![](Media/045.png)
 
-1. Select the data migration service **service[DID]**.
+1. Select the data migration service **service<inject key="DeploymentID" />**.
 
    ![](Media/046.png)
 
@@ -46,7 +46,7 @@ In this lab, you'll use the Azure portal to migrate data from a MySQL source ser
 
 1. In the **New Migration project window** Enter the details
 
-1. For name Type **Migration-[DID]**
+1. For name Type **Migration-<inject key="DeploymentID" />**
 
 1. For source server type choose MySQL from the drop down
 
@@ -64,7 +64,7 @@ In this lab, you'll use the Azure portal to migrate data from a MySQL source ser
 
 1. In select source tab For server name mention the ip address of the lab vm running in azure.
 
-   >**Note**: Duplicate the current tab and go-to home page. From there go to resource group and navigate to **Labvm-[DID]**.
+   >**Note**: Duplicate the current tab and go-to home page. From there go to resource group and navigate to **Labvm-<inject key="DeploymentID" />**.
    >   There you can find the Labvm IP address.
 
      ![](Media/049.png)
@@ -85,8 +85,8 @@ In this lab, you'll use the Azure portal to migrate data from a MySQL source ser
     | -------------------------------- | -------------------------------- |
     | **Subscription** drop-down list  | Retain the default value.        |
     | **Location**                     | East Us                          |
-    | **Resource Group**               | Jumpvm-RG-[DID]                  |
-    | **Azuredatabse for mysql server**  | Select Server[DID]             |
+    | **Resource Group**               | Jumpvm-RG-<inject key="DeploymentID" />                  |
+    | **Azuredatabse for mysql server**  | Select Server<inject key="DeploymentID" />             |
     | **Username**                      | azuresqluser                    |
     | **Password**                      | Password.1!!                    |
 
