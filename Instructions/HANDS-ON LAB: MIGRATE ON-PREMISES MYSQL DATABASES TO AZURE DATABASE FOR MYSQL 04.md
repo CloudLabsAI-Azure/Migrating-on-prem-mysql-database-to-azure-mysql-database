@@ -1,0 +1,97 @@
+# Exercise 04:Creating another Database to demonstrate Online migration
+
+In this lab, you'll create a database using MySQL Workbench. Simply launch MySQL Workbench, execute a provided query to create a "onlinedb" and "Fruits" table with sample data, and verify their creation in the left panel's schema view.This exercise provides practical experience in database creation and management with MySQL Workbench.
+
+## Task 01: Create a New mysql user 
+
+1. On start menu search for MySQLworkbench and click on the result.
+
+   ![](Media/036.png)
+
+1. In the home page of workbench click on the created instance.
+
+   ![](Media/037.png)
+
+1. Delete if there is any content And copy paste the below command. and Run it.
+
+   ```
+   create user 'sqluser'@'%' identified by 'Password.1!!';
+
+   GRANT ALL PRIVILEGES ON * . * TO sqluser@'%';
+
+   ```
+
+   ![](Media/038.png)
+
+   >**Note**:Copy-paste the commands in Notepad before pasting it into the editor to avoid mistakes
+
+1. Close the instance,
+
+   ![](Media/039.png)
+
+1. Click on the add button "+" to set-up new connection.
+
+   ![](Media/040.png)
+
+1. When the new connection screen pops up name the connection as **local database**.
+
+1. Leave the connection type as default.
+
+1. For the user type **sqluser** and click on test connection.
+
+1. It asks for password type **Password.1!!**.
+
+1. Once you get the success message click on **ok**.
+
+   ![](Media/041.png)
+
+   ![](Media/042.png)
+
+   ![](Media/043.png)
+
+## Task 02: Create a new Database
+
+1. In the workbench Home page select the created connection **local database**.
+
+1. In the query section copy paste the below command to create a sample database and table.
+
+   ```
+     -- Create a database
+     -- DROP DATABASE IF EXISTS onlinedb;
+     CREATE DATABASE onlinedb;
+     USE onlinedb;
+     
+     -- Create a table and insert rows
+     DROP TABLE IF EXISTS Fruits;
+     CREATE TABLE Fruits (id serial PRIMARY KEY, name VARCHAR(50), quantity INTEGER);
+     INSERT INTO Fruits (name, quantity) VALUES ('banana', 150);
+     INSERT INTO Fruits (name, quantity) VALUES ('orange', 154);
+     INSERT INTO Fruits (name, quantity) VALUES ('apple', 100);
+     
+     -- Read
+     SELECT * FROM Fruits;
+     
+     -- Update
+     UPDATE Fruits SET quantity = 200 WHERE id = 1;
+     SELECT * FROM Fruits;
+     
+     -- Delete
+     DELETE FROM Fruits WHERE id = 2;
+     SELECT * FROM Fruits;
+     
+     ```
+    
+
+1. Click on the thunder sign to execute the query and you can see the database with a table has been created.(refresh schema to see the new database)
+
+   ![](Media/044.png)
+
+## Review
+
+1. You launched MySQL Workbench and opened the default instance.
+
+1. You executed a provided query to create a database named "onlinedb" and a table called "fruits" with sample data.
+
+1. The query was executed successfully, and you verified the creation in the left panel's schema view.
+
+## Proceed to next exercise.
