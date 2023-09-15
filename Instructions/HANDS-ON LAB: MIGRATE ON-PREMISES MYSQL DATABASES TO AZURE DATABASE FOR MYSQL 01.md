@@ -4,9 +4,9 @@ In this lab, you'll create a private endpoint in Azure to securely connect to a 
 
 ## Task 1: Open the Azure portal
 
-1. Search for Microsoft edge in windows start and click on it.
+1. On desktop Click on **Azure portal** shortcut
 
-   ![](Media/01.png)
+   ![](Media/0001.png)
 
 1. Click on continue without using data and continue browsing
 
