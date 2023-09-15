@@ -4,9 +4,9 @@ In this lab, you'll use the Azure portal to migrate data from a MySQL source ser
 
 ## Task 01: Open the Azure portal
 
-1. Search for Microsoft edge in windows start and click on it.
+1. On desktop click on **Azure Portal** shortcut
 
-   ![](Media/01.png)
+   ![](Media/0001.png)
 
 1. Click on continue without using data and continue browsing
 
