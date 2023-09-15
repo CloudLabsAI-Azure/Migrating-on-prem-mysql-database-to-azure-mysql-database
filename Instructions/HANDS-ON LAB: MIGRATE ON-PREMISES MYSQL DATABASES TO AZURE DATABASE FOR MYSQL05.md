@@ -122,7 +122,11 @@ In this lab, you'll use the Azure portal to migrate data from a MySQL source ser
    ```
 1. Execute the command and verify the creation in schemas tab.
 
+   ![](Media/0056.png)
+
 1. Once created come back to azure database and refresh the database. you can see the creation of new database has been reflected.
+
+   ![](Media/0057.png)
 
 
 ## Review
