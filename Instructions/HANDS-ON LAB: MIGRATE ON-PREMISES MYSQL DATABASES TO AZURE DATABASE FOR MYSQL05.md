@@ -77,7 +77,7 @@ In this lab, you'll use the Azure portal to migrate data from a MySQL source ser
 
 1. Click on **Next Select Target**. It might take a moment to load.
 
-   ![](Media/050.png)
+   ![](Media/nineteen.png)
 
 1. On the Target tab fill the below details and Click on Next **select Database** 
 
@@ -90,13 +90,13 @@ In this lab, you'll use the Azure portal to migrate data from a MySQL source ser
     | **Username**                      | azuresqluser                    |
     | **Password**                      | Password.1!!                    |
 
-   ![](Media/051.png)
+   ![](Media/twenty.png)
 
 1. In the database tab select **migrate entire servers**
 
 1. Click on **Review and start migration**
 
-   ![](Media/0052.png)
+   ![](Media/twentyone.png)
 
 1. In the Review page give a name for the activity in this case name it **migrate** and click on **Start migration**
 
