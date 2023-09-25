@@ -29,7 +29,7 @@ In this lab, you'll create a database using MySQL Workbench. Simply launch MySQL
 
 1. Click on the add button "+" to set-up new connection.
 
-   ![](Media/040.png)
+   ![](Media/fourteen.png)
 
 1. When the new connection screen pops up name the connection as **local database**.
 
@@ -41,7 +41,7 @@ In this lab, you'll create a database using MySQL Workbench. Simply launch MySQL
 
 1. Once you get the success message click on **ok**.
 
-   ![](Media/tweleve.png)
+   ![](Media/fifteen.png)
 
    ![](Media/thirteen.png)
 
