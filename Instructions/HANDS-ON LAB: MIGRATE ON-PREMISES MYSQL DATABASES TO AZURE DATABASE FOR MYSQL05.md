@@ -34,15 +34,15 @@ In this lab, you'll use the Azure portal to migrate data from a MySQL source ser
 
 1. In the azure portal go to resource group.
 
-   ![](Media/045.png)
+   ![](Media/jumprg.png)
 
 1. Select the data migration service **service<inject key="DeploymentID" />**.
 
-   ![](Media/046.png)
+   ![](Media/sixteen.png)
 
 1. In the overview click on **+New Migration project**
 
-   ![](Media/0047.png)
+   ![](Media/seventeen.png)
 
 1. In the **New Migration project window** Enter the details
 
@@ -56,7 +56,7 @@ In this lab, you'll use the Azure portal to migrate data from a MySQL source ser
 
 1. Click on **Create Run Activity**
 
-   ![](Media/048.png)
+   ![](Media/eighteen.png)
 
 1. You can see it creates an activity and redirects you to **MySQL to Azure Database for MySQL Online Migration Wizard**.
 
