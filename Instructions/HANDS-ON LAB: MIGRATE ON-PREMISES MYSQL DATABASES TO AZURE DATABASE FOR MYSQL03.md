@@ -14,9 +14,9 @@ In this lab, you'll migrate a database from MySQL Workbench to Azure MySQL. Usin
 
 1.  Click Ok on the dependency warning.
 
-   ![](Media/024.png)
+   ![](Media/six.png)
 
-   ![](Media/025.png)
+   ![](Media/seven.png)
 
 1.  In the Source Selection wizard choose **mysql** for the database system.
 
@@ -24,23 +24,24 @@ In this lab, you'll migrate a database from MySQL Workbench to Azure MySQL. Usin
 
 1. Click on Next
 
-   ![](Media/026.png)
-
-   ![](Media/027.png)
+   ![](Media/eight.png)
 
 1. In the Target Selection wizard Choose **Standard TCP/ip** for connection method.
 
 1. In the below parameters Copy paste the Database Servername from portal in the place of **host name**
-
-   ![](Media/028.png)
+  ```
+    server[DID].mysql.database.azure.com
+  ```
+   
+   >**Note** Replace [DID] with deployment ID
 
 1. Enter the username as well **azuresqluser**
 
 1. Click on **next** Type the password **Password.1!!** once the success message pops up click on Ok.
 
-   ![](Media/029.png)
+   ![](Media/nine.png)
 
-   ![](Media/030.png)
+   ![](Media/ten.png)
 
 1. Click on Next until **schema selection** choose the created database **quickstartdb** and click on next.
 
@@ -52,7 +53,7 @@ In this lab, you'll migrate a database from MySQL Workbench to Azure MySQL. Usin
 
 1. In the migration report review the settings and click on **finish**.
 
-   ![](Media/033.png)
+   ![](Media/eleven.png)
 
 ## Task 2: Review the migrated database
 

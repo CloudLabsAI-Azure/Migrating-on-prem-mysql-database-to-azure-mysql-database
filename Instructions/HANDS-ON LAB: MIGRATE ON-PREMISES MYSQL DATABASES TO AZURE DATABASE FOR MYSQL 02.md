@@ -47,15 +47,11 @@ In this lab, you'll create a database using MySQL Workbench. Simply launch MySQL
 
    ![](Media/019.png)
 
-1. verify the created table.
+1. verify the **created table**.
 
-   ![](Media/020.png)
+1. Verify the created **database** by viewing **schema** on the left **(refresh it)**
 
-1. Verify the created database by viewing schema on the left (refresh it)
-
-   ![](Media/0021.png)
-
-   ![](Media/0022.png)
+   ![](Media/five.png)
    
   >**Note:** Don't close the page as the steps are continued in the next exercise.
 
