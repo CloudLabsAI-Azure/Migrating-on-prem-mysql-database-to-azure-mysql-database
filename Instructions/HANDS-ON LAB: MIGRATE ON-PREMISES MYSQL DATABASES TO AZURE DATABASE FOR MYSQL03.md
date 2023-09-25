@@ -53,7 +53,7 @@ In this lab, you'll migrate a database from MySQL Workbench to Azure MySQL. Usin
 
 1. In the migration report review the settings and click on **finish**.
 
-   ![](Media/033.png)
+   ![](Media/eleven.png)
 
 ## Task 2: Review the migrated database
 
