@@ -20,11 +20,11 @@ In this lab, you'll use the Azure portal to migrate data from a MySQL source ser
 1. Now enter the following **Password** and click on **Sign in**.
    * Password: <inject key="AzureAdUserPassword"></inject>
 
-   ![](Media/03.png)
+   ![](Media/pass.png)
     
 1. If you see the pop-up **Stay Signed in?**, click No.
 
-   ![](Media/04.png)
+   ![](Media/stay.png)
 
 ## Task 02: Set-up a new migration project
 
