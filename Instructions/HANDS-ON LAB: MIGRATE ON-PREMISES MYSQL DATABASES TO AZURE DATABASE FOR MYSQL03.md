@@ -31,8 +31,11 @@ In this lab, you'll migrate a database from MySQL Workbench to Azure MySQL. Usin
 1. In the Target Selection wizard Choose **Standard TCP/ip** for connection method.
 
 1. In the below parameters Copy paste the Database Servername from portal in the place of **host name**
-
-   ![](Media/028.png)
+  ```
+    server[DID].mysql.database.azure.com
+  ```
+   
+   >**Note** Replace [DID] with deployment ID
 
 1. Enter the username as well **azuresqluser**
 
