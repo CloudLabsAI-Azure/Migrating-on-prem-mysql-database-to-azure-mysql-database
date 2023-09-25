@@ -46,13 +46,13 @@ In this lab, you'll use the Azure portal to migrate data from a MySQL source ser
 
 1. In the **New Migration project window** Enter the details
 
-1. For name Type **Migration-<inject key="DeploymentID" />**
+   - For name Type **Migration-<inject key="DeploymentID" />**
 
-1. For source server type choose MySQL from the drop down
+   - For source server type choose MySQL from the drop down
 
-1. For Target server type choose **azure database for for MySQL (single or flexible)**
+   - For Target server type choose **azure database for for MySQL (single or flexible)**
 
-1. For migration activity type choose Online migration.
+   - For migration activity type choose Online migration.
 
 1. Click on **Create Run Activity**
 
@@ -62,18 +62,18 @@ In this lab, you'll use the Azure portal to migrate data from a MySQL source ser
 
 1. In **MySQL to Azure Database for MySQL Online Migration Wizard** fill out the information as mentioned below
 
-1. In select source tab For server name mention the ip address of the lab vm running in azure.
+   - In select source tab For server name mention the ip address of the lab vm running in azure.
 
    >**Note**: Duplicate the current tab and go-to home page. From there go to resource group and navigate to **Labvm-<inject key="DeploymentID" />**.
    >   There you can find the Labvm IP address.
 
      ![](Media/049.png)
      
-1. For port leave the default **3306**
+   - For port leave the default **3306**
 
-1. For username type **sqluser** and for password type **Password.1!!**
+   - For username type **sqluser** and for password type **Password.1!!**
 
-1. Uncheck the **encrypt connection**
+   - Uncheck the **encrypt connection**
 
 1. Click on **Next Select Target**. It might take a moment to load.
 
