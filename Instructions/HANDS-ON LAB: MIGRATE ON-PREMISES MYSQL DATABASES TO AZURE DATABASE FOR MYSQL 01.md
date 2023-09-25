@@ -48,7 +48,7 @@ In this lab, you'll create a private endpoint in Azure to securely connect to a 
 
 1. Click on **Next:resources**
 
-   ![](Media/003.png)
+   ![](Media/one.png)
 
 1. In **Resources Tab:**
 
@@ -62,13 +62,13 @@ In this lab, you'll create a private endpoint in Azure to securely connect to a 
 
 1. Click on **Next:virtualnetwork**
 
-   ![](Media/004.png)
+   ![](Media/two.png)
 
 1. Select the existing virtual network and the existing subnet and leave the defaults
 
 1. Click on **Next:DNS**
 
-   ![](Media/005.png)
+   ![](Media/three.png)
 
 1. Select yes and select subscription and resource group and click on next tags and again click next.
 
@@ -76,7 +76,7 @@ In this lab, you'll create a private endpoint in Azure to securely connect to a 
 
 1. Click on create.
 
-   ![](Media/007.png)
+   ![](Media/four.png)
 
   >**Note**: It might take few minutes for the deployment to complete meanwhile observe the resources which are created with the endpoint.
 
