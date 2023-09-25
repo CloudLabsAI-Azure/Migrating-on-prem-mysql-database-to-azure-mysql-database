@@ -36,25 +36,29 @@ In this lab, you'll create a private endpoint in Azure to securely connect to a 
 
    ![](Media/002.png)
 
-1. leave the subscription as default
+1. In the Creation screen.
 
-1. For the resource group, select **jumpvm-RG-<inject key="DeploymentID" />**
+   - leave the subscription as default
 
-1. For the name type **endpoint-<inject key="DeploymentID" />**
+   - For the resource group, select **jumpvm-RG-<inject key="DeploymentID" />**
 
-1. Leave the default value for nic card name. and select a region.
+   - For the name type **endpoint-<inject key="DeploymentID" />**
+
+   - Leave the default value for nic card name. and select a region.
 
 1. Click on **Next:resources**
 
    ![](Media/003.png)
 
-1. Select **Connect to an Azure resource in my directory.** 
+1. In **Resources Tab:**
 
-1. Leave the default subscription
+   - Select **Connect to an Azure resource in my directory.** 
 
-1. For resource type search for **Microsoft.DBforMySQL/flexibleservers** and click on it.
+   - Leave the default subscription
 
-1. Select the Database in the resource group created prior.
+   - For resource type search for **Microsoft.DBforMySQL/flexibleservers** and click on it.
+
+   - Select the Database in the resource group created prior.
 
 1. Click on **Next:virtualnetwork**
 
@@ -101,7 +105,7 @@ In this lab, you'll create a private endpoint in Azure to securely connect to a 
 1. Copy the command given.
 
    ```
-   mysql -h server1062788.mysql.database.azure.com -u azuresqluser -p
+   mysql -h server[DID].mysql.database.azure.com -u azuresqluser -p
 
    ```
 
