@@ -84,7 +84,7 @@ In this lab, you'll create a private endpoint in Azure to securely connect to a 
 
 1. In the Azure Portal, navigate to resource group and select Jumpvm-<inject key="DeploymentID" />
 
-   ![](Media/008.png)
+   ![](Media/jumprg.png)
 
 1. Select the created Azure database **server<inject key="DeploymentID" />**
 
