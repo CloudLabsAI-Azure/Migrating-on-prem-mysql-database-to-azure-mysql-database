@@ -1,8 +1,19 @@
-# Exercise 04:Creating another Database to demonstrate Online migration
+# Lab 04:Creating another Database to demonstrate Online migration
+
+## Lab Scenario
 
 In this lab, you'll create a database using MySQL Workbench. Simply launch MySQL Workbench, execute a provided query to create a "onlinedb" and "Fruits" table with sample data, and verify their creation in the left panel's schema view.This exercise provides practical experience in database creation and management with MySQL Workbench.
 
-## Task 01: Create a New mysql user 
+## Lab objective:
+
+In this lab you will perform:
+
++   Task 01: Create a New mysql user
++   Task 02: Create a new Database
+
+## Estimated Timing: 20 minutes
+
+### Task 01: Create a New mysql user 
 
 1. On start menu search for MySQLworkbench and click on the result.
 
@@ -45,7 +56,7 @@ In this lab, you'll create a database using MySQL Workbench. Simply launch MySQL
 
    ![](Media/thirteen.png)
 
-## Task 02: Create a new Database
+### Task 02: Create a new Database
 
 1. In the workbench Home page select the created connection **local database**.
 
