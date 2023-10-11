@@ -38,21 +38,23 @@ In this lab you will perform:
 
 1. Close the instance,
 
+   ![](Media/edit012.png)
+
 1. Click on the add button "+" to set-up new connection.
 
    ![](Media/fourteen.png)
 
-1. When the new connection screen pops up name the connection as **local database**.
+1. When the new connection screen pops up **Name(1)** the connection as **local database**.
 
-1. Leave the connection type as default.
+1. Leave the **Connection Method(2)** as default.
 
-1. For the user type **sqluser** and click on test connection.
+1. For the **Username(3)** type **sqluser** and click on **Test connection(4)**.
 
 1. It asks for password type **Password.1!!**.
 
 1. Once you get the success message click on **ok**.
 
-   ![](Media/edit011.png)
+   ![](Media/edit013.png)
 
    ![](Media/thirteen.png)
 
