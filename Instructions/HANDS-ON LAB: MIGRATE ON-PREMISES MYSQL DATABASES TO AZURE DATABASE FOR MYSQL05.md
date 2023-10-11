@@ -47,20 +47,20 @@ In this lab you will perform:
 
    ![](Media/eighteen.png)
 
-1. It will create an activity and redirects you to **MySQL to Azure Database for MySQL Online Migration Wizard**. And then Click on **Next Select Target**. (It might take a moment to load.)
+1. It will create an activity and redirects you to **MySQL to Azure Database for MySQL Online Migration Wizard**, and then click on **Next: Select Target**. (It might take a moment to load.)
 
-1. In **MySQL to Azure Database for MySQL Online Migration Wizard** fill out the information as mentioned below and uncheck **encrypt connection** and click on **Next: Select Target**
+1. In **MySQL to Azure Database for MySQL Online Migration Wizard** fill out the information as mentioned below, uncheck **encrypt connection**, and click on **Next: Select Target**
 
     | Setting                          | Action                           |
     | -------------------------------- | -------------------------------- |
-    | **Server name(1)**               | mention the **ip address** of the lab vm which you copied earlier |
-    | **Port(2)**                      | **3306** | 
-    | **Username(3)**                  | **sqluser**|
-    | **Password(4)**                  | **Password.1!!** |
+    | **Server name**                  | mention the **ip address** of the lab vm which you copied earlier (1) |
+    | **Port**                         | **3306(2)** | 
+    | **Username**                     | **sqluser (3)**|
+    | **Password**                     | **Password.1!! (4)** |
 
     ![](Media/edit0014.png)
 
-1. On the **Target tab** fill the below details and Click on Next **select Database(7)** 
+1. On the **Target tab** fill the following details and Click on Next **select Database(7)** 
 
     | Setting                          | Action                           |
     | -------------------------------- | -------------------------------- |
@@ -73,37 +73,33 @@ In this lab you will perform:
 
    ![](Media/edit015.png)
 
-1. In the **database tab** select **migrate entire servers**
-
-1. Click on **Review and start migration**
+1. In the **databases tab** select **Migrate entire servers**, and click on **Review and start migration**
 
    ![](Media/twentyone.png)
 
-1. In the Review page give a name for the activity in this case name it **migrate** and click on **Start migration**
+1. On the Review page enter the name as **migrate** for the **Activity** and click on **Start migration**
 
-1. You can see the migration process gets started
+1. You can view the migration process gets started
 
 1. In the initial load you can see the created database has been migrated.
 
    ![](Media/0054.png)
 
-1. Wait until the status says completed.
-
-1. Once the status shows completed To Review you can go back to server and check the newly migrated database.
+1. Monitor the migration on the status screen that appears. You can select the refresh icon in the toolbar to retrieve the latest status. Once the status shows completed, you can go back to server and review the newly migrated database.
 
    ![](Media/0055.png)
 
-1. To check Whether everything gets updated as changes are made in the local server go back to workbench and create a new database.
+1. To verify Whether changes made in the local server are reflected, go back to Workbench and create a new database by running the following query.
 
    ```
     CREATE DATABASE onlinedbtwo;
 
    ```
-1. Execute the command and verify the creation in schemas tab.
+1. Execute the command and verify the database created in schemas tab.
 
    ![](Media/056.png)
 
-1. Once created come back to azure database and refresh the database. you can see the creation of new database has been reflected.
+1. Once created navigate back to azure database and refresh the database. you can view the newly created database has been reflected.
 
    ![](Media/057.png)
 
