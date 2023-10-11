@@ -15,7 +15,7 @@ In this lab you will perform:
 
 ### Task 01: Create a New mysql user 
 
-1. On start menu search for MySQLworkbench and click on the result.
+1. On start menu search for MySQLworkbench and click on the **MySQLworkbench** .
 
    ![](Media/017.png)
 
@@ -44,25 +44,27 @@ In this lab you will perform:
 
    ![](Media/fourteen.png)
 
-1. When the new connection screen pops up **Name(1)** the connection as **local database**.
+1. In the setup new connection wizard fill the following details:
 
-1. Leave the **Connection Method(2)** as default.
+   -   When the new connection screen pops up, **Name(1)** the connection as **local database**.
 
-1. For the **Username(3)** type **sqluser** and click on **Test connection(4)**.
+   -   Leave the **Connection Method(2)** as default.
 
-1. It asks for password type **Password.1!!**.
+   -   For the **Username(3)** type **sqluser** and click on **Test connection(4)**.
 
-1. Once you get the success message click on **ok**.
+   -   Enter the password as **Password.1!!**.
 
-   ![](Media/edit013.png)
+   -   Once you get the success message click on **ok**.
 
-   ![](Media/thirteen.png)
+      ![](Media/edit013.png)
+
+      ![](Media/thirteen.png)
 
 ### Task 02: Create a new Database
 
-1. In the workbench Home page select the created connection **local database**.
+1. In the Workbench Home page select the created connection **local database**.
 
-1. In the query section copy paste the below command to create a sample database and table.
+1. In the query section copy and **paste** the below query command to create a sample database and table.
 
    ```
      -- Create a database
@@ -91,7 +93,7 @@ In this lab you will perform:
      ```
     
 
-1. Click on the **Thunder sign(1)** to execute the query **refresh schema to see the new database(2)**. and you can see the database with a **Table(3)** has been created.
+1. Click on the **execution button(1)** to execute the query **refresh schema to see the new database named onlinedb(2)**. and you can see the database with a **Table(3)** has been created.
 
    ![](Media/044.png)
 
