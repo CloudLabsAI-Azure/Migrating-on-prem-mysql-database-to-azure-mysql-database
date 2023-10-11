@@ -19,30 +19,31 @@ In this lab you will perform:
 
    ![](Media/023.png)
 
-1. Click on **Start Migration**. And then Click **Ok(1)** on the dependency warning.
+1. Click on **Start Migration**. And when the pop-up shows up Click **Ok(1)** on the Dependency Warning.
 
    ![](Media/six.png)
 
    ![](Media/seven.png)
 
-1.  In the Source Selection wizard choose **mysql** for the database system.
-
-1. For the stored connection select **Local instance MySQL(1)** and leave **Standard TCP/IP(2)** as default for connection method and Click on **Next(3)**
+1.  In the Source Selection wizard choose **mysql** for the database system. For the stored connection select **Local instance MySQL(1)**, leave **Standard TCP/IP(2)** as default for connection method and click on **Next(3)**
 
    ![](Media/edit007.png)
 
-1. In the Target Selection wizard Choose **Standard TCP/ip(1)** for connection method.
+1. In the Target Selection wizard enter the following details:
 
-1. In the below parameters Copy paste the Database Servername from portal in the place of **host name(2)**
-  ```
-    server[DID].mysql.database.azure.com
-  ```
+   -   Choose **Standard TCP/ip(1)** for connection method.
+
+   -   In the below parameters Copy paste the Database Servername from portal in the place of **host name(2)**
+  
+   ```
+     server[DID].mysql.database.azure.com
+   ```
    
-   >**Note** Replace [DID] with deployment ID
+   >**Note** Replace [DID] with deployment ID <inject key="DeploymentID" />
 
-1. Enter the **username(3)** as well **azuresqluser**
+   -   Enter the **username(3)** as well **azuresqluser**
 
-1. Click on **next** Type the password **Password.1!!** once the success message pops up click on Ok.
+   -   Click on **next** Type the password **Password.1!!** once the success message pops up click on Ok.
 
    ![](Media/nine.png)
 
