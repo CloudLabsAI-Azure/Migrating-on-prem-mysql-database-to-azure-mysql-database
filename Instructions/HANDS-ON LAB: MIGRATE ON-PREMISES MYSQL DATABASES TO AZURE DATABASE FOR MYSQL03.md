@@ -21,7 +21,7 @@ In this lab you will perform:
 
 1. Click on **Start Migration**.
 
-1.  Click Ok on the dependency warning.
+1.  Click **Ok** on the dependency warning.
 
    ![](Media/six.png)
 
@@ -29,9 +29,7 @@ In this lab you will perform:
 
 1.  In the Source Selection wizard choose **mysql** for the database system.
 
-1. For the stored connection select **Local instance MySQL** and choose **Standard TCP/IP** for connection method
-
-1. Click on Next
+1. For the stored connection select **Local instance MySQL** and leave **Standard TCP/IP** as default for connection method and Click on **Next**
 
    ![](Media/eight.png)
 
@@ -52,11 +50,9 @@ In this lab you will perform:
 
    ![](Media/ten.png)
 
-1. Click on Next until **schema selection** choose the created database **quickstartdb** and click on next.
+1. Click on **Next** until **schema selection** choose the created database **quickstartdb** and click on next.
 
-   ![](Media/031.png)
-
-   ![](Media/032.png)
+   ![](Media/edit13.png)
 
 1. Click on Next Until Migration report (wait for few seconds each time you click next)
 
