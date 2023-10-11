@@ -41,7 +41,7 @@ In this lab you will perform:
 
 1. On the search bar, search for **private endpoints(1)** and click on **result(2)**
 
-   ![](Media/edit01.png)
+   ![](Media/edit001.png)
 
 1. Click on **+Create(1)**
 
@@ -71,15 +71,15 @@ In this lab you will perform:
 
    - Select the **Database(4)** in the resource group created prior. And the **Target sub resource (5)** is already selected by default to mysqlServer
 
-   ![](Media/edit04.png)
+   ![](Media/edit002.png)
 
 1. In the **Virtual network tab** Select the existing **virtual network(1)** and the existing **subnet(2)** and leave the defaults and Click on **Next:DNS(3)**
 
-   ![](Media/edit05.png)
+   ![](Media/edit003.png)
 
 1. In DNS tab Select **yes** for **integrate with private DNS zone(1)** and select **subscription(2)** and **resource group(3)** and click on next tags and again click **next**.
 
-   ![](Media/0006.png)
+   ![](Media/edit004.png)
 
 1. Click on **create(1)**.
 
