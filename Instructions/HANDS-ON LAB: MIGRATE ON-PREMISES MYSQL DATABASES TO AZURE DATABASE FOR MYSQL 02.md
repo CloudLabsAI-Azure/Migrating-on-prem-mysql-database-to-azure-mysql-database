@@ -20,7 +20,7 @@ In this lab you will perform:
 
    ![](Media/017.png)
 
-1.  Click on the Default instance created.
+1.  Click on the Default instance created i.e **Local instance MySQL(1)**.
 
    ![](Media/018.png)
 
@@ -53,11 +53,11 @@ In this lab you will perform:
      SELECT * FROM inventory;
      
      ```
-1. Click on the **execute** button which looks like **thunderbolt**.
+1. Click on the **execute** button which looks like **thunderbolt(1)**.
 
-1. verify the **created table**.
+1. Verify the **created tables** below.
 
-1. Verify the created **database** by viewing **schema** on the left **(refresh it)**
+1. Select the **schema(2)** and **refresh(3)** it, then  Verify the created **database(4)** 
 
    ![](Media/edit11.png)
    
