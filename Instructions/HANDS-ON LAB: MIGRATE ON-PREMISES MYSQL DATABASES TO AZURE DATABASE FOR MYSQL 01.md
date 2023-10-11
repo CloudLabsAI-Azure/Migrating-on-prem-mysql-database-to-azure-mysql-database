@@ -65,23 +65,23 @@ In this lab you will perform:
 
    - Select **Connect to an Azure resource in my directory.(1)** 
 
-   - Leave the default **subscription (1)**
+   - Leave the default **subscription (2)**
 
-   - For resource type search for **Microsoft.DBforMySQL/flexibleservers** and click on it.
+   - For **resource(3)** type search for **Microsoft.DBforMySQL/flexibleservers** and click on it.
 
-   - Select the Database in the resource group created prior.
+   - Select the **Database(4)** in the resource group created prior. And the **Target sub resource (5)** is already selected by default to mysqlServer
 
    ![](Media/edit04.png)
 
-1. Select the existing virtual network and the existing subnet and leave the defaults and Click on **Next:DNS**
+1. In the **Virtual network tab** Select the existing **virtual network(1)** and the existing **subnet(2)** and leave the defaults and Click on **Next:DNS(3)**
 
    ![](Media/edit05.png)
 
-1. Select **yes** and select **subscription** and **resource group** and click on next tags and again click **next**.
+1. In DNS tab Select **yes(1)** and select **subscription(2)** and **resource group(3)** and click on next tags and again click **next**.
 
    ![](Media/0006.png)
 
-1. Click on create.
+1. Click on **create(1)**.
 
    ![](Media/edit06.png)
 
@@ -89,11 +89,11 @@ In this lab you will perform:
 
 ### Task 3: Connect to azure database.
 
-1. In the Azure Portal, navigate to resource group and select **Jumpvm-<inject key="DeploymentID" />**
+1. In the Azure Portal, navigate to resource group and select **Jumpvm-<inject key="Deployment ID" enableCopy="false"/>**
 
    ![](Media/edit07.png)
 
-1. Select the created Azure database **server<inject key="DeploymentID" />**
+1. Select the created Azure database **server<inject key="DeploymentID" enableCopy="false"/> (1)**
 
    ![](Media/009.png)
 
