@@ -51,9 +51,9 @@ In this lab you will perform:
 
    - leave the **subscription(1)** as default
 
-   - For the **resource group(2)**, select **jumpvm-RG-<inject key="DeploymentID" />**
+   - For the **resource group(2)**, select **jumpvm-RG-<inject key="Deployment ID" enableCopy="false"/>**
 
-   - For the **Name(3)** type **endpoint-<inject key="DeploymentID" />**
+   - For the **Name(3)** type **endpoint-<inject key="Deployment ID" enableCopy="false"/>**
 
    - Leave the default value for **Nic card name(4)**. and select a **Region(5)**.
 
@@ -63,7 +63,7 @@ In this lab you will perform:
 
 1. In **Resources Tab:** fill the below details and Click on **Next: Virtualnetwork**
 
-   - Select **Connect to an Azure resource in my directory.(1)** 
+   - Select **Connect to an Azure resource in my directory(1)**. 
 
    - Leave the default **subscription (2)**
 
