@@ -39,15 +39,15 @@ In this lab you will perform:
 
 ### Task 2: Create a private Endpoint.
 
-1. On the search bar, search for **private endpoints(1)** and click on **result(2)**
+1. On the search bar, search for **private endpoints(1)** and click on **private endpoints(2)**
 
    ![](Media/edit001.png)
 
-1. Click on **+Create(1)**
+1. On the **private Link center| Private endpoints**, click on **+ Create(1)**
 
    ![](Media/edit02.png)
 
-1. In the Creation screen.
+1. In the Creation screen enter the following details. Click on **Next: Resources(6)**
 
    - leave the **subscription(1)** as default
 
@@ -57,11 +57,9 @@ In this lab you will perform:
 
    - Leave the default value for **Nic card name(4)**. and select a **Region(5)**.
 
-1. Click on **Next: Resources(6)**
+      ![](Media/edit16.png)
 
-   ![](Media/edit16.png)
-
-1. In **Resources Tab:** fill the below details and Click on **Next: Virtualnetwork**
+1. In **Resources Tab:** fill the below details and Click on **Next: Virtualnetwork(6)**
 
    - Select **Connect to an Azure resource in my directory(1)**. 
 
@@ -71,7 +69,7 @@ In this lab you will perform:
 
    - Select the **Database(4)** in the resource group created prior. And the **Target sub resource (5)** is already selected by default to mysqlServer
 
-   ![](Media/edit002.png)
+      ![](Media/edit002.png)
 
 1. In the **Virtual network tab** Select the existing **virtual network(1)** and the existing **subnet(2)** and leave the defaults and Click on **Next:DNS(3)**
 
