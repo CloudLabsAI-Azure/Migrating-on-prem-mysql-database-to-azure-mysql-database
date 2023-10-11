@@ -27,9 +27,9 @@ In this lab you will perform:
 
 1.  In the Source Selection wizard choose **mysql** for the database system. For the stored connection select **Local instance MySQL(1)**, leave **Standard TCP/IP(2)** as default for connection method and click on **Next(3)**
 
-   ![](Media/edit007.png)
+      ![](Media/edit007.png)
 
-1. In the Target Selection wizard enter the following details:
+1. In the Target Selection wizard enter the following details and Click on **next**.
 
    -   Choose **Standard TCP/ip(1)** for connection method.
 
@@ -43,17 +43,19 @@ In this lab you will perform:
 
    -   Enter the **username(3)** as well **azuresqluser**
 
-   -   Click on **next** Type the password **Password.1!!** once the success message pops up click on Ok.
+   -   Enter the password **Password.1!!** once the success message pops up click on Ok.
 
-   ![](Media/nine.png)
+      ![](Media/nine.png)
 
-   ![](Media/ten.png)
+      ![](Media/ten.png)
 
-1. Click on **Next** until **schema selection** choose the created database **quickstartdb(1)** and click on **Next(2)**.
+1. On fetch schema list Click on **Next**
+
+1. In **Schema Selection** choose the created database **quickstartdb(1)** and click on **Next(2)**.
 
    ![](Media/edit008.png)
 
-1. Click on Next Until Migration report (wait for few seconds each time you click next)
+1. Click on **Next** Until Migration report (wait for few seconds each time you click next)
 
 1. In the migration report review the settings and click on **finish**.
 
@@ -61,17 +63,13 @@ In this lab you will perform:
 
 ### Task 2: Review the migrated database
 
-1. Go to azure portal and select the existing resource group
+1. Go to azure portal and select the existing resource group **JumpVM-RG-<inject key="Deployment ID" enableCopy="false"/>**
 
 1. Navigate to the azure database **Server-<inject key="DeploymentID" />**
 
-1. On the left menu search for **Databases** and select it.
+1. On the left menu of **Server-<inject key="DeploymentID" />** under settings search for **Databases(1)** and select it. Under **Databases** you can **view(2)** the **quickstartdb** Database has been successfully migrated.
 
-   ![](Media/edit010.png)
-
-1. You can see the **quickstartdb** Database has been successfully migrated.
-
-   ![](Media/edit009.png)
+   ![](Media/edit0009.png)
 
 ## Review
 
