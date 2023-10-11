@@ -22,9 +22,9 @@ In this lab you will perform:
 
       ![](Media/018.png)
 
-1. Once the editor opens up copy **paste** the below query to create a database and a table
+1. Once the editor opens up copy and **paste** the following query to create a database and a table
 
-   >**Note**: Please copy-paste the commands in the notepad before pasting it inside the editor to avoid mistakes.  
+   >**Note**: Please copy-paste the **query commands** in the notepad before pasting it inside the editor to avoid mistakes.  
 
      ```
      -- Create a database
@@ -51,11 +51,7 @@ In this lab you will perform:
      SELECT * FROM inventory;
      
      ```
-1. Click on the **execute** button which looks like **thunderbolt(1)**.
-
-1. Verify the **created tables** below.
-
-1. Select the **schema(2)** and **refresh(3)** it, then  Verify the created **database(4)** 
+1. Click on the **execute** button which looks like **thunderbolt(1)** and Verify the **created tables** below. Select the **schema(2)** and **refresh(3)** it, then  Verify the created **database(4)** 
 
    ![](Media/edit11.png)
    
