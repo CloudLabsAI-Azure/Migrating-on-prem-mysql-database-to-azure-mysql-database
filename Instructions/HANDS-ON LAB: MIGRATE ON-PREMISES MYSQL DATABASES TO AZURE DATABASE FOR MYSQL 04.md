@@ -52,7 +52,7 @@ In this lab you will perform:
 
 1. Once you get the success message click on **ok**.
 
-   ![](Media/fifteen.png)
+   ![](Media/edit011.png)
 
    ![](Media/thirteen.png)
 
