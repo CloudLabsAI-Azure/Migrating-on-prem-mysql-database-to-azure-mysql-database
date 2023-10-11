@@ -89,7 +89,7 @@ In this lab you will perform:
      ```
     
 
-1. Click on the thunder sign to execute the query and you can see the database with a table has been created.(refresh schema to see the new database)
+1. Click on the **Thunder sign(1)** to execute the query **refresh schema to see the new database(2)**. and you can see the database with a **Table(3)** has been created.
 
    ![](Media/044.png)
 
