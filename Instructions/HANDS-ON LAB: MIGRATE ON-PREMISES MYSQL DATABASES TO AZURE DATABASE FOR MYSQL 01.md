@@ -41,11 +41,11 @@ In this lab you will perform:
 
 1. On the search bar, search for **private endpoints** and click on it
 
-   ![](Media/001.png)
+   ![](Media/edit01.png)
 
 1. Click on **+Create**
 
-   ![](Media/002.png)
+   ![](Media/edit02.png)
 
 1. In the Creation screen.
 
@@ -59,7 +59,7 @@ In this lab you will perform:
 
 1. Click on **Next:resources**
 
-   ![](Media/one.png)
+   ![](Media/edit03.png)
 
 1. In **Resources Tab:**
 
@@ -73,13 +73,13 @@ In this lab you will perform:
 
 1. Click on **Next:virtualnetwork**
 
-   ![](Media/two.png)
+   ![](Media/edit04.png)
 
 1. Select the existing virtual network and the existing subnet and leave the defaults
 
 1. Click on **Next:DNS**
 
-   ![](Media/three.png)
+   ![](Media/edit05.png)
 
 1. Select yes and select subscription and resource group and click on next tags and again click next.
 
@@ -87,7 +87,7 @@ In this lab you will perform:
 
 1. Click on create.
 
-   ![](Media/four.png)
+   ![](Media/edit06.png)
 
   >**Note**: It might take few minutes for the deployment to complete meanwhile observe the resources which are created with the endpoint.
 
@@ -95,7 +95,7 @@ In this lab you will perform:
 
 1. In the Azure Portal, navigate to resource group and select Jumpvm-<inject key="DeploymentID" />
 
-   ![](Media/jumprg.png)
+   ![](Media/edit07.png)
 
 1. Select the created Azure database **server<inject key="DeploymentID" />**
 
@@ -109,16 +109,9 @@ In this lab you will perform:
 
    ![](Media/011.png)
 
-   ![](Media/012.png)
+   ![](Media/edit08.png)
 
-1. After the configuration, Scroll down to **Connect from browser or locally**
-
-1. Copy the command given.
-
-   ```
-   mysql -h server[DID].mysql.database.azure.com -u azuresqluser -p
-
-   ```
+1. After the configuration, Scroll down to **Connect from browser or locally**. Copy the command given.
 
    ![](Media/013.png)
 
@@ -134,7 +127,7 @@ In this lab you will perform:
 
 1. You can see the mysql prompt.
 
-     ![](Media/016.png)
+     ![](Media/edit09.png)
 
 ## Review
 
