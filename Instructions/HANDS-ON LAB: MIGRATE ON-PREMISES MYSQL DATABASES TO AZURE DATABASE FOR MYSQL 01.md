@@ -59,7 +59,7 @@ In this lab you will perform:
 
 1. Click on **Next:resources(2)**
 
-   ![](Media/edit03.png)
+   ![](Media/edit16.png)
 
 1. In **Resources Tab:** fill the below details and Click on **Next:virtualnetwork**
 
@@ -89,7 +89,7 @@ In this lab you will perform:
 
 ### Task 3: Connect to azure database.
 
-1. In the Azure Portal, navigate to resource group and select Jumpvm-<inject key="DeploymentID" />
+1. In the Azure Portal, navigate to resource group and select **Jumpvm-<inject key="DeploymentID" />**
 
    ![](Media/edit07.png)
 
@@ -97,17 +97,17 @@ In this lab you will perform:
 
    ![](Media/009.png)
 
-1. On the left menu, click on **connect**.
+1. On the left menu, click on **connect(1)**.
 
    ![](Media/010.png)
 
-1. Check the prerequisites and click on **Add Client IP ( xxxx )**. Wait until it gets updated.
+1. Check the prerequisites and click on **Add Client IP ( xxxx )(1)**. Wait until it gets updated.
 
    ![](Media/011.png)
 
    ![](Media/edit08.png)
 
-1. After the configuration, Scroll down to **Connect from browser or locally**. Copy the command given.
+1. After the configuration, Scroll down to **Connect from browser or locally**. **Copy(1)** the command given.
 
    ![](Media/013.png)
 
@@ -115,9 +115,9 @@ In this lab you will perform:
 
    ![](Media/014.png)
 
-1. Paste the command you copied earlier. and press enter
+1. **Paste the command(1)** you copied earlier. and press enter
 
-1. For password, type **Password.1!!**. click enter
+1. For password, **type(2)** **Password.1!!**. click enter
 
    ![](Media/015.png)
 
