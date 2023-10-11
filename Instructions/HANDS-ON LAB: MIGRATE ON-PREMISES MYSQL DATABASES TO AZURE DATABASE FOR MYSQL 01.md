@@ -49,23 +49,23 @@ In this lab you will perform:
 
 1. In the Creation screen.
 
-   - leave the subscription as default
+   - leave the **subscription(1)** as default
 
-   - For the resource group, select **jumpvm-RG-<inject key="DeploymentID" />**
+   - For the **resource group(2)**, select **jumpvm-RG-<inject key="DeploymentID" />**
 
-   - For the name type **endpoint-<inject key="DeploymentID" />**
+   - For the **Name(3)** type **endpoint-<inject key="DeploymentID" />**
 
-   - Leave the default value for nic card name. and select a region.
+   - Leave the default value for **Nic card name(4)**. and select a **Region(5)**.
 
-1. Click on **Next:resources(2)**
+1. Click on **Next: Resources(6)**
 
    ![](Media/edit16.png)
 
-1. In **Resources Tab:** fill the below details and Click on **Next:virtualnetwork**
+1. In **Resources Tab:** fill the below details and Click on **Next: Virtualnetwork**
 
    - Select **Connect to an Azure resource in my directory.(1)** 
 
-   - Leave the default subscription
+   - Leave the default **subscription (1)**
 
    - For resource type search for **Microsoft.DBforMySQL/flexibleservers** and click on it.
 
@@ -115,9 +115,7 @@ In this lab you will perform:
 
    ![](Media/014.png)
 
-1. **Paste the command(1)** you copied earlier. and press enter
-
-1. For password, **type(2)** **Password.1!!**. click enter
+1. **Paste the command(1)** you copied earlier. and press enter. For password, **type(2)** **Password.1!!**. click enter
 
    ![](Media/015.png)
 
