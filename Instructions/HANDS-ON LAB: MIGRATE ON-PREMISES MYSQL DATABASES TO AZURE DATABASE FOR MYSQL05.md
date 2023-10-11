@@ -51,15 +51,13 @@ In this lab you will perform:
 
 1. In **MySQL to Azure Database for MySQL Online Migration Wizard** fill out the information as mentioned below
 
-   - In select source tab For server name mention the ip address of the lab vm running in azure.
+   - In select source tab For **server name(1)** mention the **ip address** of the lab vm which you copied earlier.
      
-   - For port leave the default **3306**
+   - For **port(2)** leave the default **3306**
 
-   - For username type **sqluser** and for password type **Password.1!!**
+   - For **Username(3)** type **sqluser** and for **Password(4)** type **Password.1!!**
 
    - Uncheck the **encrypt connection**
-
-   ![](Media/nineteen.png)
 
 1. On the **Target tab** fill the below details and Click on Next **select Database(7)** 
 
