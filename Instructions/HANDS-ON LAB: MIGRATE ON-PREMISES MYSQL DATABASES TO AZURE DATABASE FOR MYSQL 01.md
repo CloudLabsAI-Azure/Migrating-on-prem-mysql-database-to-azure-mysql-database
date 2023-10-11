@@ -1,8 +1,23 @@
-# Exercise 01: Azure Private Endpoint Setup for Secure MySQL Database Access
+# Lab-01: Create a private endpoint and establish connection to azure mysql database
+
+## Lab scenario
+
+You are tasked with setting up a private endpoint and establishing a secure connection to an Azure MySQL database from an on-premises environment. This lab scenario involves creating a private endpoint within the Azure portal and configuring it to connect to the Azure MySQL database. You will also learn how to use a command prompt to securely establish a connection to the Azure MySQL database.
+
+## Lab objectives
+
+In this lab you will perform:
+
++   Creating a private endpoint
++   Establishing connection to azure mysql database from onprem
+
+## Estimated Timing: 30 minutes
+
+### Exercise 01: Azure Private Endpoint Setup for Secure MySQL Database Access
 
 In this lab, you'll create a private endpoint in Azure to securely connect to a MySQL database. This involves configuring the endpoint and connecting it to your database. You'll then use a command prompt to establish a secure connection to the Azure MySQL database. 
 
-## Task 1: Open the Azure portal
+### Task 1: Open the Azure portal
 
 1. On desktop Click on **Azure portal** shortcut
 
@@ -26,7 +41,7 @@ In this lab, you'll create a private endpoint in Azure to securely connect to a 
 
    ![](Media/stay.png)
 
-## Task 2: Create a private Endpoint.
+### Task 2: Create a private Endpoint.
 
 1. On the search bar, search for **private endpoints** and click on it
 
@@ -80,7 +95,7 @@ In this lab, you'll create a private endpoint in Azure to securely connect to a 
 
   >**Note**: It might take few minutes for the deployment to complete meanwhile observe the resources which are created with the endpoint.
 
-## Task 3: Connect to azure database.
+### Task 3: Connect to azure database.
 
 1. In the Azure Portal, navigate to resource group and select Jumpvm-<inject key="DeploymentID" />
 
