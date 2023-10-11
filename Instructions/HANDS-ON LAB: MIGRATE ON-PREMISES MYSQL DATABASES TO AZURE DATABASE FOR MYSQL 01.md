@@ -148,7 +148,7 @@ In this lab, you'll create a private endpoint in Azure to securely connect to a 
 
 1. Established a secure connection using a command prompt, enhancing data security and control.
 
-## Proceed to next exercise
+## Proceed to next Lab
 
   
 
