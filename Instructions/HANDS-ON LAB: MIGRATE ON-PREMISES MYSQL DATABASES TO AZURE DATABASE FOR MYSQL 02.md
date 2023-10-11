@@ -75,5 +75,5 @@ In this lab you will perform:
 
 1. You kept this page open for future exercises.
 
-## Proceed to next exercise.
+## Proceed to next Lab.
 
