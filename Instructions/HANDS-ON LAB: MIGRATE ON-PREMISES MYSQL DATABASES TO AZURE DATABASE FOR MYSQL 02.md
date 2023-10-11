@@ -14,15 +14,13 @@ In this lab you will perform:
 
 ### Task 1: Create a Database using MySQL workbench
 
-1. In the desktop select start menu
+1. In the desktop select start menu and Search for MySQL workbench.
 
-1. Search for MySQL workbench.
-
-   ![](Media/017.png)
+      ![](Media/017.png)
 
 1.  Click on the Default instance created i.e **Local instance MySQL(1)**.
 
-   ![](Media/018.png)
+      ![](Media/018.png)
 
 1. Once the editor opens up copy **paste** the below query to create a database and a table
 
