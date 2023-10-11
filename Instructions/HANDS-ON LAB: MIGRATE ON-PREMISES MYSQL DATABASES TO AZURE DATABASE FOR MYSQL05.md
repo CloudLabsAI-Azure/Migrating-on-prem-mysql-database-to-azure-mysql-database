@@ -1,32 +1,21 @@
-# Exercise 05: Online Data Migration with Azure DMS: MySQL to Azure Database for MySQL via Azure Portal
+# Lab 05: Online Data Migration with Azure DMS: MySQL to Azure Database for MySQL via Azure Portal
+
+## Lab Scenario
 
 In this lab, you'll use the Azure portal to migrate data from a MySQL source server to an Azure Database for MySQL. The steps involve setting up a migration project, configuring source and target servers, starting the migration, and verifying its completion.
 
-## Task 01: Open the Azure portal
+## Lab Objectives:
 
-1. On desktop click on **Azure Portal** shortcut
+In this lab you will perform:
 
-   ![](Media/0001.png)
++   Create a new migration project for migrating data from MySQL to Azure Database for MySQL.
++   Configure source and target servers for the migration.
++   Initiate the migration process.
++   Verify the completion of the migration.
 
-1. Click on continue without using data and continue browsing
+## Estimated Timing: 30 minutes
 
-1. Search for portal.azure.com  
-
-1. If not Sign-in, then on the **Sign into Microsoft Azure** tab you will see the login screen, in that enter following **Email/Username** and then click on **Next**. 
-   * Email/Username: <inject key="AzureAdUserEmail"></inject>
-
-   ![](Media/signin.png)
-   
-1. Now enter the following **Password** and click on **Sign in**.
-   * Password: <inject key="AzureAdUserPassword"></inject>
-
-   ![](Media/pass.png)
-    
-1. If you see the pop-up **Stay Signed in?**, click No.
-
-   ![](Media/stay.png)
-
-## Task 02: Set-up a new migration project
+### Task 01: Set-up a new migration project
 
 1. In the browser search for **portal.azure.com**
 
