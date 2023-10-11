@@ -80,7 +80,7 @@ In this lab you will perform:
 
    ![](Media/edit004.png)
 
-1. Click on **create(1)**.
+1. In Review + create page Click on **create(1)**.
 
    ![](Media/edit06.png)
 
