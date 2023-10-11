@@ -52,7 +52,7 @@ In this lab you will perform:
 
 1. Click on **Next** until **schema selection** choose the created database **quickstartdb** and click on next.
 
-   ![](Media/edit13.png)
+   ![](Media/edit12.png)
 
 1. Click on Next Until Migration report (wait for few seconds each time you click next)
 
