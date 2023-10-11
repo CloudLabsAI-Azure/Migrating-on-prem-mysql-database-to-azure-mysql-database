@@ -51,7 +51,7 @@ In this lab you will perform:
 
    - leave the **subscription(1)** as default
 
-   - For the **resource group(2)**, select **jumpvm-RG-<inject key="Deployment ID" enableCopy="false"/>**
+   - For the **resource group(2)**, select **JumpVM-RG-<inject key="Deployment ID" enableCopy="false"/>**
 
    - For the **Name(3)** type **endpoint-<inject key="Deployment ID" enableCopy="false"/>**
 
@@ -65,17 +65,18 @@ In this lab you will perform:
 
    - Leave the default **subscription (2)**
 
-   - For **resource(3)** type search for **Microsoft.DBforMySQL/flexibleservers** and click on it.
+   - For **resource type(3)** type search for **Microsoft.DBforMySQL/flexibleservers** and click on it.
 
-   - Select the **Database(4)** in the resource group created prior. And the **Target sub resource (5)** is already selected by default to mysqlServer
+   - Select the **Database(4)** in the resource group created prior i.e **server<inject key="DeploymentID" enableCopy="false"/> (1)**.
+   - For the **Target sub resource (5)** is already selected by default to mysqlServer
 
       ![](Media/edit002.png)
 
-1. In the **Virtual network tab** Select the existing **virtual network(1)** and the existing **subnet(2)** and leave the defaults and Click on **Next:DNS(3)**
-
+1. In the **Virtual network tab**, select the existing **Virtual network(1)** and the existing **Subnet(2)** and leave the defaults and Click on **Next: DNS(3)**
+ 
    ![](Media/edit003.png)
 
-1. In DNS tab Select **yes** for **integrate with private DNS zone(1)** and select **subscription(2)** and **resource group(3)** and click on next tags and again click **next**.
+1. In DNS tab, select **yes(1)** for **Integrate with private DNS zone** and select available **subscription(2)** and for **resource group(3)** select **JumpVM-RG-<inject key="Deployment ID" enableCopy="false"/>**  and click on next tags and again click **next**.
 
    ![](Media/edit004.png)
 
@@ -91,33 +92,33 @@ In this lab you will perform:
 
    ![](Media/edit07.png)
 
-1. Select the created Azure database **server<inject key="DeploymentID" enableCopy="false"/> (1)**
+1. Select the created Azure database server **server<inject key="DeploymentID" enableCopy="false"/> (1)**
 
    ![](Media/009.png)
 
-1. On the left menu, click on **connect(1)**.
+1. On the left menu under settings, click on **connect(1)**.
 
    ![](Media/010.png)
 
-1. Check the prerequisites and click on **Add Client IP ( xxxx )(1)**. Wait until it gets updated.
+1. Under the prerequisites check, and click on **Add Client IP ( xxxx )(1)**. Wait until it gets updated.
 
    ![](Media/011.png)
 
    ![](Media/edit08.png)
 
-1. After the configuration, Scroll down to **Connect from browser or locally**. **Copy(1)** the command given.
+1. After the configuration, Scroll down to **Connect from browser or locally**. **Copy(1)** the given command in the notepad.
 
    ![](Media/edit005.png)
 
-1. In the system, navigate to start and search for command prompt by typing **cmd** and select.
+1. In the Labvm, navigate to start and search for command prompt by typing **cmd** and select.
 
    ![](Media/edit006.png)
 
-1. **Paste the command(1)** you copied earlier. and press enter. For password, **type(2)** **Password.1!!**. click enter
+1. On the command prompt **Paste the command(1)** you copied earlier, hit **enter**, enter the password as **Password.1!!**. Hit **enter**
 
    ![](Media/015.png)
 
-1. You can see the mysql prompt.
+1. You can view the mysql prompt.
 
    ![](Media/edit09.png)
 
@@ -131,6 +132,3 @@ In this lab you will perform:
 
 ## Proceed to next Lab
 
-  
-
-     
