@@ -25,7 +25,13 @@ In this lab you will perform:
 
    ![](Media/edit07.png)
 
-1. Select the data migration service **service<inject key="DeploymentID" />**.
+1. Select the **Labvm**
+
+1. In the overview page **copy** the **IP address** in a Notepad. You will use it for later in this lab
+
+   ![](Media/049.png)
+
+1. Go back to Resource group. Select the data migration service **service<inject key="DeploymentID" />**.
 
    ![](Media/sixteen.png)
 
@@ -33,7 +39,7 @@ In this lab you will perform:
 
    ![](Media/Seventeen.png)
 
-1. In the **New Migration project window** Enter the details
+1. In the **New Migration project window** Enter the details and Click on **Create Run Activity**
 
    - For name Type **Migration-<inject key="DeploymentID" />**
 
@@ -43,8 +49,6 @@ In this lab you will perform:
 
    - For migration activity type choose Online migration.
 
-1. Click on **Create Run Activity**
-
    ![](Media/eighteen.png)
 
 1. You can see it creates an activity and redirects you to **MySQL to Azure Database for MySQL Online Migration Wizard**.
@@ -52,11 +56,6 @@ In this lab you will perform:
 1. In **MySQL to Azure Database for MySQL Online Migration Wizard** fill out the information as mentioned below
 
    - In select source tab For server name mention the ip address of the lab vm running in azure.
-
-   >**Note**: Duplicate the current tab and go-to home page. From there go to resource group and navigate to **Labvm-<inject key="DeploymentID" />**.
-   >   There you can find the Labvm IP address.
-
-     ![](Media/049.png)
      
    - For port leave the default **3306**
 
