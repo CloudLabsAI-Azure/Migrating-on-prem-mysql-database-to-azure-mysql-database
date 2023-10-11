@@ -15,15 +15,11 @@ In this lab you will perform:
 
 ### Task 01: Migrate the created database to azure MySQL database
 
-1. In MYSQL workbench On Tool bar select **Database**
-
-1. In the drop-down select **Migration wizard**
+1. In MYSQL workbench On Tool bar select **Database(1)**. In the drop-down select **Migration wizard(2)**
 
    ![](Media/023.png)
 
-1. Click on **Start Migration**.
-
-1.  Click **Ok** on the dependency warning.
+1. Click on **Start Migration**. And then Click **Ok(1)** on the dependency warning.
 
    ![](Media/six.png)
 
@@ -31,20 +27,20 @@ In this lab you will perform:
 
 1.  In the Source Selection wizard choose **mysql** for the database system.
 
-1. For the stored connection select **Local instance MySQL** and leave **Standard TCP/IP** as default for connection method and Click on **Next**
+1. For the stored connection select **Local instance MySQL(1)** and leave **Standard TCP/IP(2)** as default for connection method and Click on **Next(3)**
 
    ![](Media/eight.png)
 
-1. In the Target Selection wizard Choose **Standard TCP/ip** for connection method.
+1. In the Target Selection wizard Choose **Standard TCP/ip(1)** for connection method.
 
-1. In the below parameters Copy paste the Database Servername from portal in the place of **host name**
+1. In the below parameters Copy paste the Database Servername from portal in the place of **host name(2)**
   ```
     server[DID].mysql.database.azure.com
   ```
    
    >**Note** Replace [DID] with deployment ID
 
-1. Enter the username as well **azuresqluser**
+1. Enter the **username(3)** as well **azuresqluser**
 
 1. Click on **next** Type the password **Password.1!!** once the success message pops up click on Ok.
 
@@ -52,7 +48,7 @@ In this lab you will perform:
 
    ![](Media/ten.png)
 
-1. Click on **Next** until **schema selection** choose the created database **quickstartdb** and click on next.
+1. Click on **Next** until **schema selection** choose the created database **quickstartdb(1)** and click on **Next(2)**.
 
    ![](Media/edit12.png)
 
@@ -68,11 +64,11 @@ In this lab you will perform:
 
 1. Navigate to the azure database **Server-<inject key="DeploymentID" />**
 
-1. On the left menu search for databases and select it.
+1. On the left menu search for **Databases** and select it.
 
    ![](Media/034.png)
 
-1. You can see the Database has been successfully migrated.
+1. You can see the **quickstartdb** Database has been successfully migrated.
 
    ![](Media/035.png)
 
