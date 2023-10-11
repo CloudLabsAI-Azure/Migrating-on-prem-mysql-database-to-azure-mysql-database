@@ -101,7 +101,7 @@ In this lab you will perform:
 
    ![](Media/009.png)
 
-1. On the left menu, click on connect.
+1. On the left menu, click on **connect**.
 
    ![](Media/010.png)
 
