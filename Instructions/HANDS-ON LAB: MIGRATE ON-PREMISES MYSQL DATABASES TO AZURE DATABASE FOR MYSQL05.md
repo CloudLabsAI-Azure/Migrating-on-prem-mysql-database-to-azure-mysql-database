@@ -47,30 +47,31 @@ In this lab you will perform:
 
    ![](Media/eighteen.png)
 
-1. You can see it creates an activity and redirects you to **MySQL to Azure Database for MySQL Online Migration Wizard**. And then Click on **Next Select Target**. (It might take a moment to load.)
+1. You can see it creates an activity and redirects you to **MySQL to Azure Database for MySQL Online Migr: ation Wizard**. And then Click on **Next Select Target**. (It might take a moment to load.)
 
-1. In **MySQL to Azure Database for MySQL Online Migration Wizard** fill out the information as mentioned below
+1. In **MySQL to Azure Database for MySQL Online Migration Wizard** fill out the information as mentioned below and uncheck **encrypt connection** and click on **Next: Select Target**
 
-   - In select source tab For **server name(1)** mention the **ip address** of the lab vm which you copied earlier.
-     
-   - For **port(2)** leave the default **3306**
+    | Setting                          | Action                           |
+    | -------------------------------- | -------------------------------- |
+    | **Server name(1)**               | mention the **ip address** of the lab vm which you copied earlier |
+    | **Port(2)**                      | **3306** | 
+    | **Username(3)**                  | **sqluser**|
+    | **Password(4)**                  | **Password.1!!** |
 
-   - For **Username(3)** type **sqluser** and for **Password(4)** type **Password.1!!**
-
-   - Uncheck the **encrypt connection**
+    ![](Media/edit0014.png)
 
 1. On the **Target tab** fill the below details and Click on Next **select Database(7)** 
 
     | Setting                          | Action                           |
     | -------------------------------- | -------------------------------- |
     | **Subscription(1)** drop-down list  | Retain the default value.        |
-    | **Location(2)**                     | East Us                          |
+    | **Location(2)**                     | Select the region of your resource group                         |
     | **Resource Group(3)**               | Jumpvm-RG-<inject key="Deployment ID" enableCopy="false"/>                  |
     | **Azuredatabse for mysql server(4)**  | Select Server<inject key="Deployment ID" enableCopy="false"/>             |
     | **Username(5)**                      | azuresqluser                    |
     | **Password(6)**                      | Password.1!!                    |
 
-   ![](Media/twenty.png)
+   ![](Media/edit015.png)
 
 1. In the **database tab** select **migrate entire servers**
 
