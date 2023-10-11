@@ -96,7 +96,7 @@ In this lab you will perform:
 
    ![](Media/009.png)
 
-1. On the left menu under settings, click on **connect(1)**.
+1. On the left menu of **server<inject key="DeploymentID" enableCopy="false"/>** under settings, click on **connect(1)**.
 
    ![](Media/010.png)
 
@@ -114,7 +114,7 @@ In this lab you will perform:
 
    ![](Media/edit006.png)
 
-1. On the command prompt **Paste the command(1)** you copied earlier, hit **enter**, enter the password as **Password.1!!**. Hit **enter**
+1. On the command prompt **Paste the command(1)** you copied earlier, hit **enter**, enter the password as **Password.1!!**. Hit **enter**.
 
    ![](Media/015.png)
 
