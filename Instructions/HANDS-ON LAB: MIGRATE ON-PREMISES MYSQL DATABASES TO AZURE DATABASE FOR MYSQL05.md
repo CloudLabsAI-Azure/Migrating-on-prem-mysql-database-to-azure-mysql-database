@@ -17,21 +17,17 @@ In this lab you will perform:
 
 ### Task 01: Set-up a new migration project
 
-1. In the browser search for **portal.azure.com**
+1. In the browser search for **portal.azure.com**. Enter the credentials and sign up
 
-1. Enter the credentials and sign up
-
-1. In the azure portal go to resource group.
+1. In the azure portal go to resource group. and Select the **Labvm-<inject key="Deployment ID" enableCopy="false"/>**
 
    ![](Media/edit07.png)
-
-1. Select the **Labvm**
 
 1. In the overview page **copy** the **IP address** in a Notepad. You will use it for later in this lab
 
    ![](Media/049.png)
 
-1. Go back to Resource group. Select the data migration service **service<inject key="DeploymentID" />**.
+1. Go back to Resource group. Select the data migration service **service<inject key="Deployment ID" enableCopy="false"/>**.
 
    ![](Media/sixteen.png)
 
@@ -39,19 +35,19 @@ In this lab you will perform:
 
    ![](Media/Seventeen.png)
 
-1. In the **New Migration project window** Enter the details and Click on **Create Run Activity**
+1. In the **New Migration project window** Enter the below details and Click on **Create Run Activity(5)**
 
-   - For name Type **Migration-<inject key="DeploymentID" />**
+   - For **Project Name(1)** Type **Migration-<inject key="Deployment ID" enableCopy="false"/>**
 
-   - For source server type choose MySQL from the drop down
+   - For **Source server type(2)** choose MySQL from the drop down
 
-   - For Target server type choose **azure database for for MySQL (single or flexible)**
+   - For **Target server type(3)** choose **azure database for for MySQL (single or flexible)**
 
-   - For migration activity type choose Online migration.
+   - For **Migration activity type(4)** choose Online migration.
 
    ![](Media/eighteen.png)
 
-1. You can see it creates an activity and redirects you to **MySQL to Azure Database for MySQL Online Migration Wizard**.
+1. You can see it creates an activity and redirects you to **MySQL to Azure Database for MySQL Online Migration Wizard**. And then Click on **Next Select Target**. (It might take a moment to load.)
 
 1. In **MySQL to Azure Database for MySQL Online Migration Wizard** fill out the information as mentioned below
 
@@ -63,24 +59,22 @@ In this lab you will perform:
 
    - Uncheck the **encrypt connection**
 
-1. Click on **Next Select Target**. It might take a moment to load.
-
    ![](Media/nineteen.png)
 
-1. On the Target tab fill the below details and Click on Next **select Database** 
+1. On the **Target tab** fill the below details and Click on Next **select Database(7)** 
 
     | Setting                          | Action                           |
     | -------------------------------- | -------------------------------- |
-    | **Subscription** drop-down list  | Retain the default value.        |
-    | **Location**                     | East Us                          |
-    | **Resource Group**               | Jumpvm-RG-<inject key="DeploymentID" />                  |
-    | **Azuredatabse for mysql server**  | Select Server<inject key="DeploymentID" />             |
-    | **Username**                      | azuresqluser                    |
-    | **Password**                      | Password.1!!                    |
+    | **Subscription(1)** drop-down list  | Retain the default value.        |
+    | **Location(2)**                     | East Us                          |
+    | **Resource Group(3)**               | Jumpvm-RG-<inject key="Deployment ID" enableCopy="false"/>                  |
+    | **Azuredatabse for mysql server(4)**  | Select Server<inject key="Deployment ID" enableCopy="false"/>             |
+    | **Username(5)**                      | azuresqluser                    |
+    | **Password(6)**                      | Password.1!!                    |
 
    ![](Media/twenty.png)
 
-1. In the database tab select **migrate entire servers**
+1. In the **database tab** select **migrate entire servers**
 
 1. Click on **Review and start migration**
 
