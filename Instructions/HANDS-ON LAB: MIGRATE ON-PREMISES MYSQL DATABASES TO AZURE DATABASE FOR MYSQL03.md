@@ -29,7 +29,7 @@ In this lab you will perform:
 
 1. For the stored connection select **Local instance MySQL(1)** and leave **Standard TCP/IP(2)** as default for connection method and Click on **Next(3)**
 
-   ![](Media/eight.png)
+   ![](Media/edit007.png)
 
 1. In the Target Selection wizard Choose **Standard TCP/ip(1)** for connection method.
 
@@ -50,7 +50,7 @@ In this lab you will perform:
 
 1. Click on **Next** until **schema selection** choose the created database **quickstartdb(1)** and click on **Next(2)**.
 
-   ![](Media/edit12.png)
+   ![](Media/edit008.png)
 
 1. Click on Next Until Migration report (wait for few seconds each time you click next)
 
@@ -66,11 +66,11 @@ In this lab you will perform:
 
 1. On the left menu search for **Databases** and select it.
 
-   ![](Media/034.png)
+   ![](Media/edit010.png)
 
 1. You can see the **quickstartdb** Database has been successfully migrated.
 
-   ![](Media/035.png)
+   ![](Media/edit009.png)
 
 ## Review
 
