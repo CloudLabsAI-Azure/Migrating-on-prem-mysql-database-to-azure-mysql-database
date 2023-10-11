@@ -109,11 +109,11 @@ In this lab you will perform:
 
 1. After the configuration, Scroll down to **Connect from browser or locally**. **Copy(1)** the command given.
 
-   ![](Media/013.png)
+   ![](Media/edit005.png)
 
 1. In the system, navigate to start and search for command prompt by typing **cmd** and select.
 
-   ![](Media/014.png)
+   ![](Media/edit006.png)
 
 1. **Paste the command(1)** you copied earlier. and press enter. For password, **type(2)** **Password.1!!**. click enter
 
