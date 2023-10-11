@@ -11,6 +11,8 @@ In this lab you will perform:
 +   Task 01: Migrate the created database to azure MySQL database
 +   Task 02: Review the migrated database
 
+## Estimated Timing: 30 minutes
+
 ### Task 01: Migrate the created database to azure MySQL database
 
 1. In MYSQL workbench On Tool bar select **Database**
