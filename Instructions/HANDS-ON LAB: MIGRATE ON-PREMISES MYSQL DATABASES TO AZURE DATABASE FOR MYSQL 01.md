@@ -77,7 +77,7 @@ In this lab you will perform:
 
    ![](Media/edit05.png)
 
-1. In DNS tab Select **yes(1)** and select **subscription(2)** and **resource group(3)** and click on next tags and again click **next**.
+1. In DNS tab Select **yes** for **integrate with private DNS zone(1)** and select **subscription(2)** and **resource group(3)** and click on next tags and again click **next**.
 
    ![](Media/0006.png)
 
