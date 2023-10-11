@@ -15,7 +15,7 @@ In this lab you will perform:
 
 ### Task 1: Open the Azure portal
 
-1. On desktop Click on **Azure portal** shortcut
+1. On desktop Click on **Azure portal(1)** shortcut
 
    ![](Media/0001.png)
 
@@ -39,11 +39,11 @@ In this lab you will perform:
 
 ### Task 2: Create a private Endpoint.
 
-1. On the search bar, search for **private endpoints** and click on it
+1. On the search bar, search for **private endpoints(1)** and click on **result(2)**
 
    ![](Media/edit01.png)
 
-1. Click on **+Create**
+1. Click on **+Create(1)**
 
    ![](Media/edit02.png)
 
@@ -57,13 +57,13 @@ In this lab you will perform:
 
    - Leave the default value for nic card name. and select a region.
 
-1. Click on **Next:resources**
+1. Click on **Next:resources(2)**
 
    ![](Media/edit03.png)
 
-1. In **Resources Tab:**
+1. In **Resources Tab:** fill the below details and Click on **Next:virtualnetwork**
 
-   - Select **Connect to an Azure resource in my directory.** 
+   - Select **Connect to an Azure resource in my directory.(1)** 
 
    - Leave the default subscription
 
@@ -71,17 +71,13 @@ In this lab you will perform:
 
    - Select the Database in the resource group created prior.
 
-1. Click on **Next:virtualnetwork**
-
    ![](Media/edit04.png)
 
-1. Select the existing virtual network and the existing subnet and leave the defaults
-
-1. Click on **Next:DNS**
+1. Select the existing virtual network and the existing subnet and leave the defaults and Click on **Next:DNS**
 
    ![](Media/edit05.png)
 
-1. Select yes and select subscription and resource group and click on next tags and again click next.
+1. Select **yes** and select **subscription** and **resource group** and click on next tags and again click **next**.
 
    ![](Media/0006.png)
 
@@ -127,7 +123,7 @@ In this lab you will perform:
 
 1. You can see the mysql prompt.
 
-     ![](Media/edit09.png)
+   ![](Media/edit09.png)
 
 ## Review
 
