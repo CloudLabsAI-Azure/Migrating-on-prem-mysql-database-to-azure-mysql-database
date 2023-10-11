@@ -53,15 +53,13 @@ In this lab you will perform:
      SELECT * FROM inventory;
      
      ```
-1. Click on the execute button.
-
-   ![](Media/019.png)
+1. Click on the execute button which looks like thunderbolt.
 
 1. verify the **created table**.
 
 1. Verify the created **database** by viewing **schema** on the left **(refresh it)**
 
-   ![](Media/five.png)
+   ![](Media/edit11.png)
    
   >**Note:** Don't close the page as the steps are continued in the next exercise.
 
