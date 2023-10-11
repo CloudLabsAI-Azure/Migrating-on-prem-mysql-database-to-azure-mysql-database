@@ -23,7 +23,7 @@ In this lab you will perform:
 
 1. In the azure portal go to resource group.
 
-   ![](Media/jumprg.png)
+   ![](Media/edit07.png)
 
 1. Select the data migration service **service<inject key="DeploymentID" />**.
 
@@ -31,7 +31,7 @@ In this lab you will perform:
 
 1. In the overview click on **+New Migration project**
 
-   ![](Media/seventeen.png)
+   ![](Media/Seventeen.png)
 
 1. In the **New Migration project window** Enter the details
 
@@ -88,8 +88,6 @@ In this lab you will perform:
    ![](Media/twentyone.png)
 
 1. In the Review page give a name for the activity in this case name it **migrate** and click on **Start migration**
-
-   ![](Media/053.png)
 
 1. You can see the migration process gets started
 
