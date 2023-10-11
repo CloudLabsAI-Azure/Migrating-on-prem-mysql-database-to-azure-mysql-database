@@ -13,10 +13,6 @@ In this lab you will perform:
 
 ## Estimated Timing: 30 minutes
 
-### Exercise 01: Azure Private Endpoint Setup for Secure MySQL Database Access
-
-In this lab, you'll create a private endpoint in Azure to securely connect to a MySQL database. This involves configuring the endpoint and connecting it to your database. You'll then use a command prompt to establish a secure connection to the Azure MySQL database. 
-
 ### Task 1: Open the Azure portal
 
 1. On desktop Click on **Azure portal** shortcut
