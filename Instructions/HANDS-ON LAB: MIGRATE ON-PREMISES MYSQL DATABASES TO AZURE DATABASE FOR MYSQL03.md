@@ -43,7 +43,7 @@ In this lab, you will perform:
 
    -   Enter the **username(3)** as well **azuresqluser**
 
-   -   Enter the password **Password.1!!** Once the success message pops up click on Ok.
+   -   Enter the password ****<inject key="DBpasswd"></inject>**** Once the success message pops up click on Ok.
 
       ![](Media/nine.png)
 
