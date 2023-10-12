@@ -2,23 +2,23 @@
 
 ## Lab Scenario
 
-In this lab, you'll create a database using MySQL Workbench. Simply launch MySQL Workbench, execute a provided query to create a "quickstartdb" and "inventory" table with sample data, and verify their creation in the left panel's schema view.This exercise provides practical experience in database creation and management with MySQL Workbench.
+In this lab, you'll create a database using MySQL Workbench. Simply launch MySQL Workbench, execute a provided query to create a "quickstartdb" and "inventory" table with sample data, and verify their creation in the left panel's schema view. This exercise provides practical experience in database creation and management with MySQL Workbench.
 
 ## Lab objective
 
-In this lab you will perform:
+In this lab, you will perform:
 
-+   creating a MySQL database using Workbench
++   Creating a MySQL database using Workbench
 
 ## Estimated Timing: 10 minutes
 
 ### Task 1: Create a Database using MySQL workbench
 
-1. In the desktop select start menu and Search for MySQL workbench.
+1. In the desktop select the start menu and Search for MySQL workbench.
 
       ![](Media/017.png)
 
-1.  Click on the Default instance created i.e **Local instance MySQL(1)**.
+1.  Click on the Default instance created i.e. **Local instance MySQL(1)**.
 
       ![](Media/018.png)
 
@@ -67,5 +67,5 @@ In this lab you will perform:
 
 1. You kept this page open for future exercises.
 
-## Proceed to next Lab.
+## Proceed to the next Lab.
 
