@@ -79,4 +79,4 @@ In this lab, you will perform:
 
 1. In the Azure portal, you verified the migrated database's status within the specified resource group.
 
-## Proceed to next Lab
+## Proceed to the next Lab
