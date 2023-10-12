@@ -114,7 +114,7 @@ In this lab, you will perform:
 
    ![](Media/edit006.png)
 
-1. On the command prompt **Paste the command(1)** you copied earlier, hit **enter**, enter the password as **Password.1!!**. Hit **enter**.
+1. On the command prompt **Paste the command(1)** you copied earlier, hit **enter**, enter the password as **<inject key="DBpasswd"></inject>**. Hit **enter**.
 
    ![](Media/015.png)
 
