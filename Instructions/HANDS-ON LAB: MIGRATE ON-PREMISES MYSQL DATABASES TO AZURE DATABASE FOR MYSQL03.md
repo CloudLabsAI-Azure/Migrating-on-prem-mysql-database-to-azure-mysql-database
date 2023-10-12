@@ -6,14 +6,14 @@ In this lab, you'll migrate a database from MySQL Workbench to Azure MySQL. Usin
 
 ## Lab objectives:
 
-In this lab you will perform:
+In this lab, you will perform:
 
-+   Task 01: Migrate the created database to azure MySQL database
++   Task 01: Migrate the created database to Azure MySQL database
 +   Task 02: Review the migrated database
 
 ## Estimated Timing: 30 minutes
 
-### Task 01: Migrate the created database to azure MySQL database
+### Task 01: Migrate the created database to Azure MySQL database
 
 1. In MYSQL workbench On Tool bar select **Database(1)**. In the drop-down select **Migration wizard(2)**
 
@@ -25,7 +25,7 @@ In this lab you will perform:
 
    ![](Media/seven.png)
 
-1.  In the Source Selection wizard choose **mysql** for the database system. For the stored connection select **Local instance MySQL(1)**, leave **Standard TCP/IP(2)** as default for connection method and click on **Next(3)**
+1.  In the Source Selection wizard choose **MySQL** for the database system. For the stored connection select **Local instance MySQL(1)**, leave **Standard TCP/IP(2)** as default for connection method and click on **Next(3)**
 
       ![](Media/edit007.png)
 
@@ -33,7 +33,7 @@ In this lab you will perform:
 
    -   Choose **Standard TCP/ip(1)** for connection method.
 
-   -   In the below parameters Copy paste the Database Servername from portal in the place of **host name(2)**
+   -   In the below parameters Copy paste the Database Server name from the portal in the place of **hostname(2)**
   
    ```
      server[DID].mysql.database.azure.com
@@ -43,7 +43,7 @@ In this lab you will perform:
 
    -   Enter the **username(3)** as well **azuresqluser**
 
-   -   Enter the password **Password.1!!** once the success message pops up click on Ok.
+   -   Enter the password **Password.1!!** Once the success message pops up click on Ok.
 
       ![](Media/nine.png)
 
@@ -55,7 +55,7 @@ In this lab you will perform:
 
    ![](Media/edit008.png)
 
-1. Click on **Next** Until Migration report (wait for few seconds each time you click next)
+1. Click on **Next** Until the Migration report (wait for a few seconds each time you click next)
 
 1. In the migration report review the settings and click on **finish**.
 
@@ -63,7 +63,7 @@ In this lab you will perform:
 
 ### Task 2: Review the migrated database
 
-1. Go to azure portal and select the existing resource group **JumpVM-RG-<inject key="Deployment ID" enableCopy="false"/>**
+1. Go to the Azure portal and select the existing resource group **JumpVM-RG-<inject key="Deployment ID" enableCopy="false"/>**
 
 1. Navigate to the azure database **Server-<inject key="DeploymentID" />**
 
