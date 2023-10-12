@@ -69,7 +69,7 @@ In this lab, you will perform:
     | **Resource Group(3)**               | Jumpvm-RG-<inject key="Deployment ID" enableCopy="false"/>                  |
     | **Azuredatabse for mysql server(4)**  | Select Server<inject key="Deployment ID" enableCopy="false"/>             |
     | **Username(5)**                      | azuresqluser                    |
-    | **Password(6)**                      | Password.1!!                    |
+    | **Password(6)**                      | **<inject key="DBpasswd"></inject>**                    |
 
    ![](Media/edit015.png)
 
