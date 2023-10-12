@@ -130,5 +130,5 @@ In this lab, you will perform:
 
 1. Established a secure connection using a command prompt, enhancing data security and control.
 
-## Proceed to next Lab
+## Proceed to the next Lab
 
