@@ -96,6 +96,14 @@ In this lab, you will perform:
 
    ![](Media/009.png)
 
+1. On the left menu of **server<inject key="DeploymentID" enableCopy="false"/>** under settings,Click on **Server parameters (1)**.
+
+1. On the **Server parameters** tab select **All (2)** and search for **max_allowed_packet (3)**
+
+1. In the **max_allowed_packet** parameter give the **VALUE (4)** as **67108864** and click on **Save (5)**
+
+   ![](Media/edit017.png)
+
 1. On the left menu of **server<inject key="DeploymentID" enableCopy="false"/>** under settings, click on **connect(1)**.
 
    ![](Media/010.png)
