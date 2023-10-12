@@ -2,28 +2,28 @@
 
 ## Lab Scenario
 
-In this lab, you'll create a database using MySQL Workbench. Simply launch MySQL Workbench, execute a provided query to create a "onlinedb" and "Fruits" table with sample data, and verify their creation in the left panel's schema view.This exercise provides practical experience in database creation and management with MySQL Workbench.
+In this lab, you'll create a database using MySQL Workbench. Simply launch MySQL Workbench, execute a provided query to create a table with sample data, and verify their creation in the left panel's schema view. This exercise provides practical experience in database creation and management with MySQL Workbench.
 
 ## Lab objective:
 
-In this lab you will perform:
+In this lab, you will perform:
 
-+   Task 01: Create a New mysql user
++   Task 01: Create a New MySQL user
 +   Task 02: Create a new Database
 
 ## Estimated Timing: 20 minutes
 
-### Task 01: Create a New mysql user 
+### Task 01: Create a New MySQL user 
 
-1. On start menu search for MySQLworkbench and click on the **MySQLworkbench** .
+1. On the start menu search for MySQLworkbench and click on the **MySQLworkbench**.
 
    ![](Media/017.png)
 
-1. In the home page of workbench click on the created instance.
+1. On the home page of the workbench click on the created instance.
 
    ![](Media/037.png)
 
-1. Delete if there is any content And copy paste the below command. and Run it.
+1. Delete if there is any content And copy and paste the below command. and Run it.
 
    ```
    create user 'sqluser'@'%' identified by 'Password.1!!';
@@ -105,4 +105,4 @@ In this lab you will perform:
 
 1. The query was executed successfully, and you verified the creation in the left panel's schema view.
 
-## Proceed to next exercise.
+## Proceed to the next exercise.
