@@ -75,7 +75,7 @@ In this lab, you will perform:
 
 1. In the **databases tab** select **Migrate entire servers**, and click on **Review and start migration**
 
-   ![](Media/twentyone.png)
+   ![](Media/edit016.png)
 
 1. On the Review page enter the name as **migrate** for the **Activity** and click on **Start migration**
 
