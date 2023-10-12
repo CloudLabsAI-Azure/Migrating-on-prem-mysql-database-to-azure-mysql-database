@@ -105,4 +105,4 @@ In this lab, you will perform:
 
 1. The query was executed successfully, and you verified the creation in the left panel's schema view.
 
-## Proceed to the next exercise.
+## Proceed to the next Lab.
